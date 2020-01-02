@@ -1,0 +1,3 @@
+2019-07-20 13:53:51,432 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from vs_data_sets where id =? 
+2019-07-20 13:53:51,479 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 0CC71D09C5BC4CCEB9CCE290FCEF80B3(String)
+2019-07-20 13:53:51,490 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 0

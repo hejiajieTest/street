@@ -1,0 +1,81 @@
+2019-11-18 17:13:16,334 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:13:16,389 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:13:16,411 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:14:12,625 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:14:12,626 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:14:12,628 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:15:06,253 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:15:06,253 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:15:06,254 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:16:37,681 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:16:37,682 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:16:37,684 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:17:38,287 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:17:38,288 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:17:38,289 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:18:38,069 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:18:38,069 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:18:38,070 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:18:48,713 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:18:48,714 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:18:48,715 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:19:58,038 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:19:58,039 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:19:58,040 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:22:03,150 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:22:03,151 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:22:03,152 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:22:26,031 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:22:26,032 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:22:26,033 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:26:12,766 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:26:12,767 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:26:12,769 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:31:32,594 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-18 17:31:32,637 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-18 17:31:32,652 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-18 17:47:00,707 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority,t.data_sets_id,t.cover_img_url,t.cover_real_name,t.cover_name from vs_theme t where t.id = ? 
+2019-11-18 17:47:00,766 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: D747B59439E546A2A5CCD32BC769BF3F(String)
+2019-11-18 17:47:00,809 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-11-18 17:47:05,633 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.layout_style,t.theme_id,t.page_config from vs_layout t where t.theme_id= ? 
+2019-11-18 17:47:05,634 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: D747B59439E546A2A5CCD32BC769BF3F(String)
+2019-11-18 17:47:05,646 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-11-18 17:47:05,738 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.content,t.event,t.components_type,t.theme_id,t.data_source, t.title,t.static_data,t.common_style,t.component_id,t.create_date,t.extend from vs_components t where t.theme_id= ? 
+2019-11-18 17:47:05,739 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: D747B59439E546A2A5CCD32BC769BF3F(String)
+2019-11-18 17:47:05,750 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 19
+2019-11-18 17:47:05,760 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_name,t.catalog_id,t.create_date,t.update_date from vs_data_sets t where t.id =? 
+2019-11-18 17:47:05,761 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 965F82E021074959843AEEF8B934AB4D(String)
+2019-11-18 17:47:05,766 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-11-18 17:47:05,773 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese,t.create_date,t.update_date from vs_data t WHERE t.data_sets_id = ? 
+2019-11-18 17:47:05,773 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 965F82E021074959843AEEF8B934AB4D(String)
+2019-11-18 17:47:05,776 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 8
+2019-11-18 17:47:22,774 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority,t.data_sets_id,t.cover_img_url,t.cover_real_name,t.cover_name from vs_theme t where t.id = ? 
+2019-11-18 17:47:22,774 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: D747B59439E546A2A5CCD32BC769BF3F(String)
+2019-11-18 17:47:22,776 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-11-18 17:47:25,542 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.layout_style,t.theme_id,t.page_config from vs_layout t where t.theme_id= ? 
+2019-11-18 17:47:25,542 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: D747B59439E546A2A5CCD32BC769BF3F(String)
+2019-11-18 17:47:25,544 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-11-18 17:47:25,852 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.content,t.event,t.components_type,t.theme_id,t.data_source, t.title,t.static_data,t.common_style,t.component_id,t.create_date,t.extend from vs_components t where t.theme_id= ? 
+2019-11-18 17:47:25,853 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: D747B59439E546A2A5CCD32BC769BF3F(String)
+2019-11-18 17:47:25,857 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 19
+2019-11-18 17:47:26,240 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_name,t.catalog_id,t.create_date,t.update_date from vs_data_sets t where t.id =? 
+2019-11-18 17:47:26,240 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 965F82E021074959843AEEF8B934AB4D(String)
+2019-11-18 17:47:26,242 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-11-18 17:47:27,455 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese,t.create_date,t.update_date from vs_data t WHERE t.data_sets_id = ? 
+2019-11-18 17:47:27,456 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 965F82E021074959843AEEF8B934AB4D(String)
+2019-11-18 17:47:27,458 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 8
+2019-11-18 17:48:40,950 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority,t.data_sets_id,t.cover_img_url,t.cover_real_name,t.cover_name from vs_theme t where t.id = ? 
+2019-11-18 17:48:40,950 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: D747B59439E546A2A5CCD32BC769BF3F(String)
+2019-11-18 17:48:40,951 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-11-18 17:48:44,413 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.layout_style,t.theme_id,t.page_config from vs_layout t where t.theme_id= ? 
+2019-11-18 17:48:44,414 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: D747B59439E546A2A5CCD32BC769BF3F(String)
+2019-11-18 17:48:44,415 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-11-18 17:48:45,607 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.content,t.event,t.components_type,t.theme_id,t.data_source, t.title,t.static_data,t.common_style,t.component_id,t.create_date,t.extend from vs_components t where t.theme_id= ? 
+2019-11-18 17:48:45,608 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: D747B59439E546A2A5CCD32BC769BF3F(String)
+2019-11-18 17:48:45,612 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 19
+2019-11-18 17:48:57,023 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_name,t.catalog_id,t.create_date,t.update_date from vs_data_sets t where t.id =? 
+2019-11-18 17:48:57,024 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 965F82E021074959843AEEF8B934AB4D(String)
+2019-11-18 17:48:57,025 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-11-18 17:49:04,141 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese,t.create_date,t.update_date from vs_data t WHERE t.data_sets_id = ? 
+2019-11-18 17:49:04,142 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 965F82E021074959843AEEF8B934AB4D(String)
+2019-11-18 17:49:04,143 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 8

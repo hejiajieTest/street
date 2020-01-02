@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tscloud.resource.mapper.manualInfo.ManualInfoMapper">
+
+    <resultMap type="com.tscloud.domain.resource.entity.manualInfo.ManualInfo" id="manualInfoResultMap">
+    
+        <result column="id" property="id" javaType="java.lang.String"/>
+        <result column="auto_enterprise_code" property="autoEnterpriseCode" javaType="java.lang.String"/>
+        <result column="dowload_url" property="dowloadUrl" javaType="java.lang.String"/>
+        <result column="manual_desc" property="manualDesc" javaType="java.lang.String"/>
+        <result column="manual_name" property="manualName" javaType="java.lang.String"/>
+        <result column="manual_type" property="manualType" javaType="java.lang.String"/>
+        <result column="update_date" property="updateDate" javaType="java.util.Date"/>
+        
+    </resultMap>
+    
+    <sql id="column">
+       	t.id,t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date
+    </sql>
+    
+    <sql id="sql_update">
+       	<set>
+            <if test="autoEnterpriseCode != null  and autoEnterpriseCode != '' ">
+                <![CDATA[
+                    t.auto_enterprise_code = #{autoEnterpriseCode},
+                ]]>
+            </if>
+            <if test="dowloadUrl != null  and dowloadUrl != '' ">
+                <![CDATA[
+		            t.dowload_url = #{dowloadUrl},
+		        ]]>
+            </if>
+            <if test="manualDesc != null  and manualDesc != '' ">
+                <![CDATA[
+		            t.manual_desc= #{manualDesc},
+                ]]>
+            </if>
+            <if test="manualName != null  and manualName != '' ">
+                <![CDATA[
+		            t.manual_name = #{manualName},
+		        ]]>
+            </if>
+            <if test="manualType != null  and manualType != '' ">
+                <![CDATA[
+		            t.manual_type= #{manualType},
+                ]]>
+            </if>
+            <if test="updateDate != null  and updateDate != '' ">
+                <![CDATA[
+		            t.update_date= #{updateDate},
+                ]]>
+            </if>
+        </set>
+    </sql>
+    
+     <!--查询条件-->
+    <sql id="sql_where">
+        <where>
+            <if test="manualName != null and manualName != '' ">
+                <![CDATA[
+                  and t.manual_name like CONCAT('%',#{manualName},'%' )
+                ]]>
+            </if>
+             <if test="autoEnterpriseCode != null and autoEnterpriseCode != '' ">
+                <![CDATA[
+                  and t.auto_enterprise_code=#{autoEnterpriseCode}
+                ]]>
+            </if>
+            <if test="manualType != null and manualType != '' ">
+             	<![CDATA[
+              		 and t.manual_type =#{manualType}
+               ]]>
+            </if>
+        </where>
+    </sql>
+    
+ 	<select id="findAll" resultMap="manualInfoResultMap">
+        select
+        <include refid="column"/>
+        from t_manual_info t
+    </select>
+    
+    <select id="findById" resultMap="manualInfoResultMap">
+    	select
+        <include refid="column"/>
+        from t_manual_info t
+        where t.id = #{id}
+    </select>
+    
+    <select id="findByIds"  resultMap="manualInfoResultMap">
+        select
+        <include refid="column"/>
+        from t_manual_info t
+        where t.id in
+        <foreach item="item" index="index" collection="array" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+    
+    <insert id ="save" parameterType="com.tscloud.domain.resource.entity.manualInfo.ManualInfo" >
+    	insert into t_manual_info(id,auto_enterprise_code,dowload_url,manual_desc,manual_name,manual_type,update_date)
+        values(#{id},#{autoEnterpriseCode},#{dowloadUrl},#{manualDesc},#{manualName},#{manualType},#{updateDate})
+    </insert>
+    
+    <insert id="saveList" parameterType="java.util.List">
+    insert into t_manual_info(auto_enterprise_code,dowload_url,manual_desc,manual_name,manual_type,update_date)
+    values
+    <foreach item="item" index="index" collection="list" separator="," >
+        (#{item.autoEnterpriseCode},#{item.dowloadUrl},#{item.manualDesc},#{item.manualName},#{item.manualType},#{item.updateDate})
+    </foreach>
+    </insert>
+    
+    <update id="update" parameterType="com.tscloud.domain.resource.entity.manualInfo.ManualInfo">
+    	update t_manual_info t
+    	<include refid="sql_update"/>
+    	where t.id=#{id}
+    </update>
+    
+    <update id="updateByIds">
+    	update t_manual_info t
+    	set t.manual_type="4"
+    	where t.id in
+    	<foreach item="item" index="index" collection="list" open="(" separator="," close=")">
+    		#{item}
+    	</foreach>
+    </update>
+    
+    <delete id="deleteByIds" parameterType="java.util.List">
+    	delete from t_manual_info where id in
+    	 <foreach item="item" index="index" collection="list" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+    
+    <select id="findByMap" parameterType="java.util.Map" resultMap="manualInfoResultMap">
+    	select 
+    	<include refid="column"/>
+    	from t_manual_info t
+    	<include refid="sql_where"/>
+    </select>
+    
+    <select id="findByPage" parameterType="java.util.Map" resultMap="manualInfoResultMap">
+    	select 
+    	<include refid="column"/>
+    	from t_manual_info t
+    	<include refid="sql_where"/>
+    	limit #{startRowNum},#{pageSize}
+    </select>
+</mapper>

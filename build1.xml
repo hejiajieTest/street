@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="common" default="all" basedir="." xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+	<property name="compiler.debug" value="on"/>
+
+	<property name="mvn.home" value="D:\leador\use\apache-maven-3.2.5"/>
+	<property name="mvn.repos" value="D:\leador\mvn_respository\repository"/>
+	<property name="common-home" value="D:\leador\use\TrueCloud-Common-1.3"/>
+	<property name="build.home" value="./build"/>
+
+	<echo message="java version = ${ant.java.version}"/>
+
+	<path id="maven-ant-tasks.classpath" path="E:\workspace\TrueCloud\TrueCloudServer\lib\maven-ant-tasks-2.1.3.jar"/>
+	<typedef resource="org/apache/maven/artifact/ant/antlib.xml" uri="antlib:org.apache.maven.artifact.ant"
+             classpathref="maven-ant-tasks.classpath"/>
+
+	<target name="all" depends="gisServer,admin,portal,resServer,ca">
+		<echo>============================================</echo>
+		<echo>========== 默认Ant Target，将会编译server ui 组件==========</echo>
+		<echo>============================================</echo>
+	</target>
+
+	<target name="common" depends="clean">
+		<echo>============================================</echo>
+		<echo>========== build TrueCloud-common ==========</echo>
+		<echo>============================================</echo>
+
+		<property name="common.src" value="${common-home}/src/"/>
+		<property name="common.pom.file" value="${common-home}/pom.xml"/>
+		<property name="common.target" value="TrueCloud-Common-1.3.jar"/>
+		<property name="startup.lib" value="startup.jar"/>
+
+		<property name="common" value="${basedir}/build/TrueCloud-Common"/>
+		<property name="common.dest.src" value="${common}/src/"/>
+		<property name="common.classes" value="${common}/classes/"/>
+		<property name="common.lib" value="${common}/lib/"/>
+
+		<mkdir dir="${common}"/>
+		<mkdir dir="${common.src}"/>
+		<mkdir dir="${common.classes}"/>
+		<mkdir dir="${common.lib}"/>
+
+		<copy todir="${common.dest.src}">
+			<fileset dir="${common.src}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<artifact:pom id="common.pom" file="${common.pom.file}"/>
+		<artifact:dependencies filesetId="common.fileset" useScope="compile">
+			<localrepository path="${mvn.repos}"/>
+			<pom refid="common.pom"/>
+		</artifact:dependencies>
+		<artifact:mvn pom="${common.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="clean"/>
+		</artifact:mvn>
+		<artifact:mvn pom="${common.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="install"/>
+		</artifact:mvn>
+
+		<copy todir="${common.lib}">
+			<fileset refid="common.fileset"></fileset>
+			<mapper type="flatten"></mapper>
+		</copy>
+
+		<path id="common.classpath">
+			<fileset dir="${common.lib}">
+				<include name="*.jar"/>
+			</fileset>
+		</path>
+
+		<javac srcdir="${common.src}" destdir="${common.classes}" deprecation="off" failonerror="false" fork="false"
+			   memoryMaximumSize="1024m" encoding="UTF-8" debug="on" nowarn="on">
+			<classpath refid="common.classpath"/>
+			<compilerarg line="-encoding UTF-8"/>
+		</javac>
+
+		<jar destfile="${common.lib}/${common.target}">
+			<fileset dir="${common.classes}"/>
+		</jar>
+
+		<jar destfile="${common.lib}/${startup.lib}">
+			<fileset dir="${common.classes}" includes="**/StartUp.class"/>
+		</jar>
+	</target>
+
+	<target name="gisDomain" depends="common">
+		<echo>============================================</echo>
+		<echo>========== build PortalGis-GisDomain ==========</echo>
+		<echo>============================================</echo>
+
+		<property name="gisDomain.src" value="./PortalGis-GisDomain/src/"/>
+		<property name="gisDomain.pom.file" value="./PortalGis-GisDomain/pom.xml"/>
+		<property name="gisDomain.target" value="PortalGis-GisDomain/PortalGis-GisDomain-1.1.jar"/>
+
+		<property name="gisDomain" value="${basedir}/build/PortalGis-GisDomain"/>
+		<property name="gisDomain.dest.src" value="${gisDomain}/src/"/>
+		<property name="gisDomain.classes" value="${gisDomain}/classes/"/>
+		<property name="gisDomain.lib" value="${gisDomain}/lib/"/>
+
+		<mkdir dir="${gisDomain}"/>
+		<mkdir dir="${gisDomain.src}"/>
+		<mkdir dir="${gisDomain.classes}"/>
+		<mkdir dir="${gisDomain.lib}"/>
+
+		<copy todir="${gisDomain.dest.src}">
+			<fileset dir="${gisDomain.src}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<artifact:pom id="gisDomain.pom" file="${gisDomain.pom.file}"/>
+		<artifact:dependencies filesetId="gisDomain.fileset" useScope="compile">
+			<localrepository path="${mvn.repos}"/>
+			<pom refid="gisDomain.pom"/>
+		</artifact:dependencies>
+		<artifact:mvn pom="${gisDomain.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="clean"/>
+		</artifact:mvn>
+		<artifact:mvn pom="${gisDomain.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="install"/>
+		</artifact:mvn>
+
+		<copy todir="${gisDomain.lib}">
+			<fileset refid="gisDomain.fileset"></fileset>
+			<mapper type="flatten"></mapper>
+		</copy>
+
+		<path id="gisDomain.classpath">
+			<fileset dir="${gisDomain.lib}">
+				<include name="*.jar"/>
+			</fileset>
+		</path>
+
+		<javac srcdir="${gisDomain.src}" destdir="${gisDomain.classes}" deprecation="off" failonerror="false"
+               fork="false" memoryMaximumSize="512m" encoding="UTF-8" debug="on" nowarn="on">
+			<classpath refid="gisDomain.classpath"/>
+		</javac>
+
+		<jar destfile="${gisDomain.lib}/${gisDomain.target}">
+			<fileset dir="${gisDomain.classes}"/>
+		</jar>
+
+	</target>
+
+	<target name="resDomain" depends="common">
+		<echo>============================================</echo>
+		<echo>========== build PortalGis-ResDomain ==========</echo>
+		<echo>============================================</echo>
+
+		<property name="resDomain.src" value="./PortalGis-ResDomain/src/"/>
+		<property name="resDomain.pom.file" value="./PortalGis-ResDomain/pom.xml"/>
+		<property name="resDomain.target" value="PortalGis-ResDomain/PortalGis-ResDomain-1.1.jar"/>
+
+		<property name="resDomain" value="${basedir}/build/PortalGis-ResDomain"/>
+		<property name="resDomain.dest.src" value="${resDomain}/src/"/>
+		<property name="resDomain.classes" value="${resDomain}/classes/"/>
+		<property name="resDomain.lib" value="${resDomain}/lib/"/>
+
+		<mkdir dir="${resDomain}"/>
+		<mkdir dir="${resDomain.src}"/>
+		<mkdir dir="${resDomain.classes}"/>
+		<mkdir dir="${resDomain.lib}"/>
+
+		<copy todir="${resDomain.dest.src}">
+			<fileset dir="${resDomain.src}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<artifact:pom id="resDomain.pom" file="${resDomain.pom.file}"/>
+		<artifact:dependencies filesetId="resDomain.fileset" useScope="compile">
+			<localrepository path="${mvn.repos}"/>
+			<pom refid="resDomain.pom"/>
+		</artifact:dependencies>
+		<artifact:mvn pom="${resDomain.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="clean"/>
+		</artifact:mvn>
+		<artifact:mvn pom="${resDomain.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="install"/>
+		</artifact:mvn>
+
+		<copy todir="${resDomain.lib}">
+			<fileset refid="resDomain.fileset"></fileset>
+			<mapper type="flatten"></mapper>
+		</copy>
+
+		<path id="resDomain.classpath">
+			<fileset dir="${resDomain.lib}">
+				<include name="*.jar"/>
+			</fileset>
+		</path>
+
+		<javac srcdir="${resDomain.src}" destdir="${resDomain.classes}" deprecation="off" failonerror="false"
+			   fork="false" memoryMaximumSize="512m" encoding="UTF-8" debug="on" nowarn="on">
+			<classpath refid="resDomain.classpath"/>
+		</javac>
+
+		<jar destfile="${resDomain.lib}/${resDomain.target}">
+			<fileset dir="${resDomain.classes}"/>
+		</jar>
+
+	</target>
+
+    <target name="gisServer" depends="gisDomain">
+        <echo>============================================</echo>
+        <echo>========== build PortalGis-GisServer ==========</echo>
+        <echo>============================================</echo>
+
+        <property name="PortalGis-GisServer.src" value="./PortalGis-GisServer/src/"/>
+        <property name="PortalGis-GisServer.resources" value="./PortalGis-GisServer/src/main/resources/"/>
+        <property name="PortalGis-GisServer.webapp" value="./PortalGis-GisServer/src/main/webapp"/>
+        <property name="PortalGis-GisServer.pom.file" value="./PortalGis-GisServer/pom.xml"/>
+        <property name="PortalGis-GisServer.target" value="PortalGis-GisServer/PortalGis-GisServer-1.0.jar"/>
+        <property name="PortalGis-GisServer.scripts" value="./PortalGis-GisServer/src/main/resources/bin"/>
+
+        <property name="PortalGis-GisServer" value="${basedir}/build/PortalGis-GisServer"/>
+        <property name="PortalGis-GisServer.bin" value="${PortalGis-GisServer}/bin/"/>
+        <property name="PortalGis-GisServer.classes" value="${PortalGis-GisServer}/classes/"/>
+        <property name="PortalGis-GisServer.lib" value="${PortalGis-GisServer}/lib/"/>
+        <property name="PortalGis-GisServer.dest.src" value="${PortalGis-GisServer}/src/"/>
+        <property name="PortalGis-GisServer.dest.resources" value="${PortalGis-GisServer}/resources/"/>
+        <property name="PortalGis-GisServer.dest.webapp" value="${PortalGis-GisServer}/webapp/"/>
+
+
+        <mkdir dir="${PortalGis-GisServer}"/>
+        <mkdir dir="${PortalGis-GisServer.src}"/>
+        <mkdir dir="${PortalGis-GisServer.classes}"/>
+        <mkdir dir="${PortalGis-GisServer.lib}"/>
+        <mkdir dir="${PortalGis-GisServer.bin}"/>
+
+        <copy todir="${PortalGis-GisServer.bin}">
+            <fileset dir="${PortalGis-GisServer.scripts}" excludes="**/.svn/**/*.*"/>
+        </copy>
+
+        <copy todir="${PortalGis-GisServer.dest.src}">
+            <fileset dir="${PortalGis-GisServer.src}" excludes="**/.svn/**/*.*"/>
+        </copy>
+
+        <copy todir="${PortalGis-GisServer.dest.resources}">
+            <fileset dir="${PortalGis-GisServer.resources}" excludes="**/.svn/**/*.*"/>
+        </copy>
+
+        <copy todir="${PortalGis-GisServer.dest.webapp}">
+            <fileset dir="${PortalGis-GisServer.webapp}" excludes="**/.svn/**/*.*"/>
+        </copy>
+
+        <artifact:pom id="PortalGis-GisServer.pom" file="${PortalGis-GisServer.pom.file}"/>
+        <artifact:dependencies filesetId="PortalGis-GisServer.fileset" useScope="compile">
+            <localrepository path="${mvn.repos}"/>
+            <pom refid="PortalGis-GisServer.pom"/>
+        </artifact:dependencies>
+        <artifact:mvn pom="${PortalGis-GisServer.pom.file}" mavenHome="${mvn.home}" fork="true">
+            <arg value="clean"/>
+        </artifact:mvn>
+        <artifact:mvn pom="${PortalGis-GisServer.pom.file}" mavenHome="${mvn.home}" fork="true">
+            <arg value="install"/>
+        </artifact:mvn>
+
+        <copy todir="${PortalGis-GisServer.lib}">
+            <fileset refid="PortalGis-GisServer.fileset"></fileset>
+            <mapper type="flatten"></mapper>
+        </copy>
+
+        <path id="PortalGis-GisServer.classpath">
+            <fileset dir="${PortalGis-GisServer.lib}">
+                <include name="*.jar"/>
+            </fileset>
+        </path>
+
+        <javac srcdir="${PortalGis-GisServer.src}" destdir="${PortalGis-GisServer.classes}" deprecation="off" failonerror="false"
+               fork="false" memoryMaximumSize="512m" encoding="UTF-8" debug="on" nowarn="on">
+            <classpath refid="PortalGis-GisServer.classpath"/>
+        </javac>
+
+        <jar destfile="${PortalGis-GisServer.lib}/${PortalGis-GisServer.target}">
+            <fileset dir="${PortalGis-GisServer.classes}"/>
+        </jar>
+
+        <jar destfile="${PortalGis-GisServer.lib}/${startup.lib}">
+            <fileset dir="${common.classes}" includes="**/StartUp.class"/>
+        </jar>
+
+        <delete dir="${PortalGis-GisServer.classes}"/>
+        <delete dir="${PortalGis-GisServer.dest.src}"/>
+
+    </target>
+
+	<target name="admin" depends="gisDomain,resDomain">
+		<echo>============================================</echo>
+		<echo>========== build PortalGis-Admin ==========</echo>
+		<echo>============================================</echo>
+
+		<property name="PortalGis-Admin.src" value="./PortalGis-Admin/src/"/>
+		<property name="PortalGis-Admin.resources" value="./PortalGis-Admin/src/main/resources/"/>
+		<property name="PortalGis-Admin.webapp" value="./PortalGis-Admin/src/main/webapp"/>
+		<property name="PortalGis-Admin.pom.file" value="./PortalGis-Admin/pom.xml"/>
+		<property name="PortalGis-Admin.target" value="PortalGis-Admin/PortalGis-Admin-1.0.jar"/>
+		<property name="PortalGis-Admin.scripts" value="./PortalGis-Admin/src/main/resources/bin"/>
+
+		<property name="PortalGis-Admin" value="${basedir}/build/PortalGis-Admin"/>
+		<property name="PortalGis-Admin.bin" value="${PortalGis-Admin}/bin/"/>
+		<property name="PortalGis-Admin.classes" value="${PortalGis-Admin}/classes/"/>
+		<property name="PortalGis-Admin.lib" value="${PortalGis-Admin}/lib/"/>
+		<property name="PortalGis-Admin.dest.src" value="${PortalGis-Admin}/src/"/>
+		<property name="PortalGis-Admin.dest.resources" value="${PortalGis-Admin}/resources/"/>
+		<property name="PortalGis-Admin.dest.webapp" value="${PortalGis-Admin}/webapp/"/>
+
+
+		<mkdir dir="${PortalGis-Admin}"/>
+		<mkdir dir="${PortalGis-Admin.src}"/>
+		<mkdir dir="${PortalGis-Admin.classes}"/>
+		<mkdir dir="${PortalGis-Admin.lib}"/>
+		<mkdir dir="${PortalGis-Admin.bin}"/>
+
+		<copy todir="${PortalGis-Admin.bin}">
+			<fileset dir="${PortalGis-Admin.scripts}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-Admin.dest.src}">
+			<fileset dir="${PortalGis-Admin.src}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-Admin.dest.resources}">
+			<fileset dir="${PortalGis-Admin.resources}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-Admin.dest.webapp}">
+			<fileset dir="${PortalGis-Admin.webapp}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<artifact:pom id="PortalGis-Admin.pom" file="${PortalGis-Admin.pom.file}"/>
+		<artifact:dependencies filesetId="PortalGis-Admin.fileset" useScope="compile">
+			<localrepository path="${mvn.repos}"/>
+			<pom refid="PortalGis-Admin.pom"/>
+		</artifact:dependencies>
+		<artifact:mvn pom="${PortalGis-Admin.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="clean"/>
+		</artifact:mvn>
+		<artifact:mvn pom="${PortalGis-Admin.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="install"/>
+		</artifact:mvn>
+
+		<copy todir="${PortalGis-Admin.lib}">
+			<fileset refid="PortalGis-Admin.fileset"></fileset>
+			<mapper type="flatten"></mapper>
+		</copy>
+
+		<path id="PortalGis-Admin.classpath">
+			<fileset dir="${PortalGis-Admin.lib}">
+				<include name="*.jar"/>
+			</fileset>
+		</path>
+
+		<javac srcdir="${PortalGis-Admin.src}" destdir="${PortalGis-Admin.classes}" deprecation="off" failonerror="false"
+               fork="false" memoryMaximumSize="512m" encoding="UTF-8" debug="on" nowarn="on">
+			<classpath refid="PortalGis-Admin.classpath"/>
+		</javac>
+
+		<jar destfile="${PortalGis-Admin.lib}/${PortalGis-Admin.target}">
+			<fileset dir="${PortalGis-Admin.classes}"/>
+		</jar>
+
+		<jar destfile="${PortalGis-Admin.lib}/${startup.lib}">
+			<fileset dir="${common.classes}" includes="**/StartUp.class"/>
+		</jar>
+
+		<delete dir="${PortalGis-Admin.classes}"/>
+		<delete dir="${PortalGis-Admin.dest.src}"/>
+
+	</target>
+
+
+	<target name="portal" depends="gisDomain,resDomain">
+		<echo>============================================</echo>
+		<echo>========== build PortalGis-Portal ==========</echo>
+		<echo>============================================</echo>
+
+		<property name="PortalGis-Portal.src" value="./PortalGis-Portal/src/"/>
+		<property name="PortalGis-Portal.resources" value="./PortalGis-Portal/src/main/resources/"/>
+		<property name="PortalGis-Portal.webapp" value="./PortalGis-Portal/src/main/webapp"/>
+		<property name="PortalGis-Portal.pom.file" value="./PortalGis-Portal/pom.xml"/>
+		<property name="PortalGis-Portal.target" value="PortalGis-Portal/PortalGis-Portal-1.0.jar"/>
+		<property name="PortalGis-Portal.scripts" value="./PortalGis-Portal/src/main/resources/bin"/>
+
+		<property name="PortalGis-Portal" value="${basedir}/build/PortalGis-Portal"/>
+		<property name="PortalGis-Portal.bin" value="${PortalGis-Portal}/bin/"/>
+		<property name="PortalGis-Portal.classes" value="${PortalGis-Portal}/classes/"/>
+		<property name="PortalGis-Portal.lib" value="${PortalGis-Portal}/lib/"/>
+		<property name="PortalGis-Portal.dest.src" value="${PortalGis-Portal}/src/"/>
+		<property name="PortalGis-Portal.dest.resources" value="${PortalGis-Portal}/resources/"/>
+		<property name="PortalGis-Portal.dest.webapp" value="${PortalGis-Portal}/webapp/"/>
+
+
+		<mkdir dir="${PortalGis-Portal}"/>
+		<mkdir dir="${PortalGis-Portal.src}"/>
+		<mkdir dir="${PortalGis-Portal.classes}"/>
+		<mkdir dir="${PortalGis-Portal.lib}"/>
+		<mkdir dir="${PortalGis-Portal.bin}"/>
+
+		<copy todir="${PortalGis-Portal.bin}">
+			<fileset dir="${PortalGis-Portal.scripts}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-Portal.dest.src}">
+			<fileset dir="${PortalGis-Portal.src}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-Portal.dest.resources}">
+			<fileset dir="${PortalGis-Portal.resources}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-Portal.dest.webapp}">
+			<fileset dir="${PortalGis-Portal.webapp}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<artifact:pom id="PortalGis-Portal.pom" file="${PortalGis-Portal.pom.file}"/>
+		<artifact:dependencies filesetId="PortalGis-Portal.fileset" useScope="compile">
+			<localrepository path="${mvn.repos}"/>
+			<pom refid="PortalGis-Portal.pom"/>
+		</artifact:dependencies>
+		<artifact:mvn pom="${PortalGis-Portal.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="clean"/>
+		</artifact:mvn>
+		<artifact:mvn pom="${PortalGis-Portal.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="install"/>
+		</artifact:mvn>
+
+		<copy todir="${PortalGis-Portal.lib}">
+			<fileset refid="PortalGis-Portal.fileset"></fileset>
+			<mapper type="flatten"></mapper>
+		</copy>
+
+		<path id="PortalGis-Portal.classpath">
+			<fileset dir="${PortalGis-Portal.lib}">
+				<include name="*.jar"/>
+			</fileset>
+		</path>
+
+		<javac srcdir="${PortalGis-Portal.src}" destdir="${PortalGis-Portal.classes}" deprecation="off" failonerror="false"
+			   fork="false" memoryMaximumSize="512m" encoding="UTF-8" debug="on" nowarn="on">
+			<classpath refid="PortalGis-Portal.classpath"/>
+		</javac>
+
+		<jar destfile="${PortalGis-Portal.lib}/${PortalGis-Portal.target}">
+			<fileset dir="${PortalGis-Portal.classes}"/>
+		</jar>
+
+		<jar destfile="${PortalGis-Portal.lib}/${startup.lib}">
+			<fileset dir="${common.classes}" includes="**/StartUp.class"/>
+		</jar>
+
+		<delete dir="${PortalGis-Portal.classes}"/>
+		<delete dir="${PortalGis-Portal.dest.src}"/>
+
+	</target>
+
+	<target name="resServer" depends="resDomain">
+		<echo>============================================</echo>
+		<echo>========== build PortalGis-ResServer ==========</echo>
+		<echo>============================================</echo>
+
+		<property name="PortalGis-ResServer.src" value="./PortalGis-ResServer/src/"/>
+		<property name="PortalGis-ResServer.resources" value="./PortalGis-ResServer/src/main/resources/"/>
+		<property name="PortalGis-ResServer.webapp" value="./PortalGis-ResServer/src/main/webapp"/>
+		<property name="PortalGis-ResServer.pom.file" value="./PortalGis-ResServer/pom.xml"/>
+		<property name="PortalGis-ResServer.target" value="PortalGis-ResServer/PortalGis-ResServer-1.0.jar"/>
+		<property name="PortalGis-ResServer.scripts" value="./PortalGis-ResServer/src/main/resources/bin"/>
+
+		<property name="PortalGis-ResServer" value="${basedir}/build/PortalGis-ResServer"/>
+		<property name="PortalGis-ResServer.bin" value="${PortalGis-ResServer}/bin/"/>
+		<property name="PortalGis-ResServer.classes" value="${PortalGis-ResServer}/classes/"/>
+		<property name="PortalGis-ResServer.lib" value="${PortalGis-ResServer}/lib/"/>
+		<property name="PortalGis-ResServer.dest.src" value="${PortalGis-ResServer}/src/"/>
+		<property name="PortalGis-ResServer.dest.resources" value="${PortalGis-ResServer}/resources/"/>
+		<property name="PortalGis-ResServer.dest.webapp" value="${PortalGis-ResServer}/webapp/"/>
+
+
+		<mkdir dir="${PortalGis-ResServer}"/>
+		<mkdir dir="${PortalGis-ResServer.src}"/>
+		<mkdir dir="${PortalGis-ResServer.classes}"/>
+		<mkdir dir="${PortalGis-ResServer.lib}"/>
+		<mkdir dir="${PortalGis-ResServer.bin}"/>
+
+		<copy todir="${PortalGis-ResServer.bin}">
+			<fileset dir="${PortalGis-ResServer.scripts}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-ResServer.dest.src}">
+			<fileset dir="${PortalGis-ResServer.src}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-ResServer.dest.resources}">
+			<fileset dir="${PortalGis-ResServer.resources}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-ResServer.dest.webapp}">
+			<fileset dir="${PortalGis-ResServer.webapp}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<artifact:pom id="PortalGis-ResServer.pom" file="${PortalGis-ResServer.pom.file}"/>
+		<artifact:dependencies filesetId="PortalGis-ResServer.fileset" useScope="compile">
+			<localrepository path="${mvn.repos}"/>
+			<pom refid="PortalGis-ResServer.pom"/>
+		</artifact:dependencies>
+		<artifact:mvn pom="${PortalGis-ResServer.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="clean"/>
+		</artifact:mvn>
+		<artifact:mvn pom="${PortalGis-ResServer.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="install"/>
+		</artifact:mvn>
+
+		<copy todir="${PortalGis-ResServer.lib}">
+			<fileset refid="PortalGis-ResServer.fileset"></fileset>
+			<mapper type="flatten"></mapper>
+		</copy>
+
+		<path id="PortalGis-ResServer.classpath">
+			<fileset dir="${PortalGis-ResServer.lib}">
+				<include name="*.jar"/>
+			</fileset>
+		</path>
+
+		<javac srcdir="${PortalGis-ResServer.src}" destdir="${PortalGis-ResServer.classes}" deprecation="off" failonerror="false"
+			   fork="false" memoryMaximumSize="512m" encoding="UTF-8" debug="on" nowarn="on">
+			<classpath refid="PortalGis-ResServer.classpath"/>
+		</javac>
+
+		<jar destfile="${PortalGis-ResServer.lib}/${PortalGis-ResServer.target}">
+			<fileset dir="${PortalGis-ResServer.classes}"/>
+		</jar>
+
+		<jar destfile="${PortalGis-ResServer.lib}/${startup.lib}">
+			<fileset dir="${common.classes}" includes="**/StartUp.class"/>
+		</jar>
+
+		<delete dir="${PortalGis-ResServer.classes}"/>
+		<delete dir="${PortalGis-ResServer.dest.src}"/>
+
+	</target>
+
+	<target name="ca" depends="common">
+		<echo>============================================</echo>
+		<echo>========== build PortalGis-CA ==========</echo>
+		<echo>============================================</echo>
+
+		<property name="PortalGis-CA.src" value="./PortalGis-CA/src/"/>
+		<property name="PortalGis-CA.resources" value="./PortalGis-CA/src/main/resources/"/>
+		<property name="PortalGis-CA.webapp" value="./PortalGis-CA/src/main/webapp"/>
+		<property name="PortalGis-CA.pom.file" value="./PortalGis-CA/pom.xml"/>
+		<property name="PortalGis-CA.target" value="PortalGis-CA/PortalGis-CA-1.0.jar"/>
+		<property name="PortalGis-CA.scripts" value="./PortalGis-CA/src/main/resources/bin"/>
+
+		<property name="PortalGis-CA" value="${basedir}/build/PortalGis-CA"/>
+		<property name="PortalGis-CA.bin" value="${PortalGis-CA}/bin/"/>
+		<property name="PortalGis-CA.classes" value="${PortalGis-CA}/classes/"/>
+		<property name="PortalGis-CA.lib" value="${PortalGis-CA}/lib/"/>
+		<property name="PortalGis-CA.dest.src" value="${PortalGis-CA}/src/"/>
+		<property name="PortalGis-CA.dest.resources" value="${PortalGis-CA}/resources/"/>
+		<property name="PortalGis-CA.dest.webapp" value="${PortalGis-CA}/webapp/"/>
+
+
+		<mkdir dir="${PortalGis-CA}"/>
+		<mkdir dir="${PortalGis-CA.src}"/>
+		<mkdir dir="${PortalGis-CA.classes}"/>
+		<mkdir dir="${PortalGis-CA.lib}"/>
+		<mkdir dir="${PortalGis-CA.bin}"/>
+
+		<copy todir="${PortalGis-CA.bin}">
+			<fileset dir="${PortalGis-CA.scripts}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-CA.dest.src}">
+			<fileset dir="${PortalGis-CA.src}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-CA.dest.resources}">
+			<fileset dir="${PortalGis-CA.resources}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<copy todir="${PortalGis-CA.dest.webapp}">
+			<fileset dir="${PortalGis-CA.webapp}" excludes="**/.svn/**/*.*"/>
+		</copy>
+
+		<artifact:pom id="PortalGis-CA.pom" file="${PortalGis-CA.pom.file}"/>
+		<artifact:dependencies filesetId="PortalGis-CA.fileset" useScope="compile">
+			<localrepository path="${mvn.repos}"/>
+			<pom refid="PortalGis-CA.pom"/>
+		</artifact:dependencies>
+		<artifact:mvn pom="${PortalGis-CA.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="clean"/>
+		</artifact:mvn>
+		<artifact:mvn pom="${PortalGis-CA.pom.file}" mavenHome="${mvn.home}" fork="true">
+			<arg value="install"/>
+		</artifact:mvn>
+
+		<copy todir="${PortalGis-CA.lib}">
+			<fileset refid="PortalGis-CA.fileset"></fileset>
+			<mapper type="flatten"></mapper>
+		</copy>
+
+		<path id="PortalGis-CA.classpath">
+			<fileset dir="${PortalGis-CA.lib}">
+				<include name="*.jar"/>
+			</fileset>
+		</path>
+
+		<javac srcdir="${PortalGis-CA.src}" destdir="${PortalGis-CA.classes}" deprecation="off" failonerror="false"
+			   fork="false" memoryMaximumSize="512m" encoding="UTF-8" debug="on" nowarn="on">
+			<classpath refid="PortalGis-CA.classpath"/>
+		</javac>
+
+		<jar destfile="${PortalGis-CA.lib}/${PortalGis-CA.target}">
+			<fileset dir="${PortalGis-CA.classes}"/>
+		</jar>
+
+		<jar destfile="${PortalGis-CA.lib}/${startup.lib}">
+			<fileset dir="${common.classes}" includes="**/StartUp.class"/>
+		</jar>
+
+		<delete dir="${PortalGis-CA.classes}"/>
+		<delete dir="${PortalGis-CA.dest.src}"/>
+	</target>
+	
+	<target name="clean">
+		<delete dir="${build.home}"/>
+		<mkdir dir="${build.home}"/>
+	</target>
+	
+</project>

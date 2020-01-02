@@ -1,0 +1,92 @@
+2019-07-18 12:44:57,403 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_catalog(id,user_id,catalog_name,priority) values(?,?,?,?) 
+2019-07-18 12:44:57,450 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 7DEFB71CAB704A4AA6F6A719E7AA2EF9(String), C2E4C69C04544ED0B3737A34DE8C4B70(String), 测试目录一(String), 1(Integer)
+2019-07-18 12:44:57,456 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 12:45:18,760 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_catalog(id,user_id,catalog_name,priority) values(?,?,?,?) 
+2019-07-18 12:45:18,761 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 7710979A8B5149F6833A4944B71AA54E(String), C2E4C69C04544ED0B3737A34DE8C4B70(String), 测试目录二(String), 2(Integer)
+2019-07-18 12:45:18,773 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 12:51:02,817 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_catalog(id,user_id,catalog_name,priority) values(?,?,?,?) 
+2019-07-18 12:51:02,817 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: A51BFA6735B1419F9855EE732804798F(String), C2E4C69C04544ED0B3737A34DE8C4B70(String), 测试目录四(String), 2(Integer)
+2019-07-18 12:51:02,828 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 12:54:50,009 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_catalog t SET t.user_id = ?, t.catalog_name = ? where t.id=? 
+2019-07-18 12:54:50,009 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String), 测试目录三(String), 7710979A8B5149F6833A4944B71AA54E(String)
+2019-07-18 12:54:50,012 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 12:58:31,567 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_catalog t SET t.user_id = ?, t.catalog_name = ? where t.id=? 
+2019-07-18 12:58:31,568 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String), 测试目录三(String), 7710979A8B5149F6833A4944B71AA54E(String)
+2019-07-18 12:58:31,571 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 12:59:27,966 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_catalog t SET t.user_id = ?, t.catalog_name = ? where t.id=? 
+2019-07-18 12:59:27,968 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String), 测试目录三(String), 7710979A8B5149F6833A4944B71AA54E(String)
+2019-07-18 12:59:27,983 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 13:01:57,113 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_catalog t SET t.user_id = ?, t.catalog_name = ?, t.priority = ? where t.id=? and t.user_id=? 
+2019-07-18 13:03:33,674 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_catalog t SET t.catalog_name = ?, t.priority = ? where t.id=? and t.user_id=? 
+2019-07-18 13:03:33,710 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 测试目录三(String), 3(Integer), 7710979A8B5149F6833A4944B71AA54E(String), C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-18 13:03:33,722 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 13:03:44,804 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_catalog t SET t.catalog_name = ?, t.priority = ? where t.id=? and t.user_id=? 
+2019-07-18 13:03:44,805 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 测试目录三(String), 1(Integer), 7710979A8B5149F6833A4944B71AA54E(String), C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-18 13:03:44,837 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 13:09:40,629 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t where t.catalog_name = ? and t.user_id = ? and t.id <> ? 
+2019-07-18 13:09:40,682 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 测试目录三(String), C2E4C69C04544ED0B3737A34DE8C4B70(String), 7710979A8B5149F6833A4944B71AA54E(String)
+2019-07-18 13:09:40,691 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-18 13:10:23,828 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t where t.catalog_name = ? and t.user_id = ? 
+2019-07-18 13:10:23,829 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 测试目录三(String), C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-18 13:10:23,832 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-18 13:18:34,402 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t where t.catalog_name = ? and t.user_id = ? and t.id <> ? 
+2019-07-18 13:18:34,403 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 测试目录三(String), C2E4C69C04544ED0B3737A34DE8C4B70(String), 7710979A8B5149F6833A4944B71AA54E(String)
+2019-07-18 13:18:34,405 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-18 13:18:55,975 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t where t.catalog_name = ? and t.user_id = ? and t.id <> ? 
+2019-07-18 13:18:55,975 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 测试目录三(String), C2E4C69C04544ED0B3737A34DE8C4B70(String), 7710979A8B5149F6833A4944B71AA54E(String)
+2019-07-18 13:18:55,976 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-18 13:21:36,635 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t where t.catalog_name = ? and t.user_id = ? and t.id <> ? 
+2019-07-18 13:21:36,636 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 测试目录三(String), C2E4C69C04544ED0B3737A34DE8C4B70(String), 7DEFB71CAB704A4AA6F6A719E7AA2EF9(String)
+2019-07-18 13:21:36,637 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-18 13:25:20,932 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t where t.catalog_name = ? and t.user_id = ? and t.id <> ? 
+2019-07-18 13:25:20,933 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 测试目录三(String), C2E4C69C04544ED0B3737A34DE8C4B70(String), 7DEFB71CAB704A4AA6F6A719E7AA2EF9(String)
+2019-07-18 13:25:20,934 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-18 14:28:16,831 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t where t.user_id=? order by t.priority 
+2019-07-18 14:28:16,866 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-18 14:28:16,881 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-18 14:31:15,376 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-18 14:31:15,412 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-18 14:31:15,421 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-18 15:10:24,598 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from vs_catalog where id =? 
+2019-07-18 15:10:24,636 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 7710979A8B5149F6833A4944B71AA54E(String)
+2019-07-18 15:10:24,643 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 15:41:01,671 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from vs_catalog where id =? 
+2019-07-18 15:41:01,712 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 7DEFB71CAB704A4AA6F6A719E7AA2EF9(String)
+2019-07-18 15:41:01,729 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 15:43:44,480 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from vs_catalog where id =? 
+2019-07-18 15:43:44,526 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: A51BFA6735B1419F9855EE732804798F(String)
+2019-07-18 15:43:44,538 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 15:50:35,954 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from vs_catalog where id =? 
+2019-07-18 15:50:36,013 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 1(String)
+2019-07-18 15:50:36,025 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 19:03:55,638 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select group_concat(distinct(t.id)) themeids, group_concat(distinct(t.layout_id)) layouts, group_concat(components_id) from vs_catalog c,vs_theme t,vs_theme_components tc where c.id = t.catalog_id and tc.theme_id = t.id and t.catalog_id = ?; 
+2019-07-18 19:03:55,749 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-18 19:03:55,777 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-18 19:04:18,370 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select group_concat(distinct(t.id)) themeids, group_concat(distinct(t.layout_id)) layouts, group_concat(components_id) from vs_catalog c,vs_theme t,vs_theme_components tc where c.id = t.catalog_id and tc.theme_id = t.id and t.catalog_id = ?; 
+2019-07-18 19:04:18,373 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-18 19:04:18,376 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-18 19:05:02,768 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select group_concat(distinct(t.id)) themeids, group_concat(distinct(t.layout_id)) layouts, group_concat(components_id) from vs_catalog c,vs_theme t,vs_theme_components tc where c.id = t.catalog_id and tc.theme_id = t.id and t.catalog_id = ?; 
+2019-07-18 19:05:02,816 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-18 19:05:02,829 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-18 22:38:21,185 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.layout_id,t.scene_type,t.create_date,t.update_date,t.priority from vs_catalog t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-18 22:38:21,307 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-18 22:47:13,198 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.layout_id,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-18 22:47:13,238 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-18 22:47:13,246 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-18 22:48:29,374 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.layout_id,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-18 22:48:29,374 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-18 22:48:29,382 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-18 22:54:26,746 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.layout_id,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.theme_name like CONCAT('%',?,'%' ) and t.catalog_id = ? and t.sceneType= ? order by t.priority,t.create_date desc 
+2019-07-18 22:54:26,748 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: test(String), 2(String), 手机(String)
+2019-07-18 22:56:00,228 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.layout_id,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.theme_name like CONCAT('%',?,'%' ) and t.catalog_id = ? and t.scene_type= ? order by t.priority,t.create_date desc 
+2019-07-18 22:56:00,365 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: test(String), 2(String), 手机(String)
+2019-07-18 22:56:00,393 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-18 22:56:31,986 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.layout_id,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.theme_name like CONCAT('%',?,'%' ) and t.catalog_id = ? and t.scene_type= ? order by t.priority,t.create_date desc 
+2019-07-18 22:56:31,987 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: test(String), 2(String), 手机(String)
+2019-07-18 22:56:31,991 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-18 23:06:58,439 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_theme(id,theme_name,catalog_id,theme_describe,layout_id,scene_type,create_date,update_date,priority) values(?,?,?,?,?,?,?,?,?) 
+2019-07-18 23:06:58,443 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 91CC301BC94744A68D437DB17AE8BFC6(String), 测试主题一(String), 2(String), null, null, 手机(String), 2019-07-18 23:06:58.438(Timestamp), null, 1000(Integer)
+2019-07-18 23:06:58,446 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-18 23:17:51,610 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_theme t SET t.theme_name = ?, t.update_date = ?, t.priority = ? where t.id=? 
+2019-07-18 23:17:51,611 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 测试主题二(String), 2019-07-18 23:17:51.608(Timestamp), 2000(Integer), 91CC301BC94744A68D437DB17AE8BFC6(String)
+2019-07-18 23:17:51,613 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1

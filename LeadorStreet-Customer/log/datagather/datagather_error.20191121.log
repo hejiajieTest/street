@@ -1,0 +1,2 @@
+2019-11-21 15:56:56,841 [ERROR]  (SpringComponentProvider.java.initialize:102) - Spring context lookup failed, skipping spring component provider initialization.
+2019-11-21 16:05:16,984 [ERROR]  (SpringComponentProvider.java.initialize:102) - Spring context lookup failed, skipping spring component provider initialization.

@@ -1,0 +1,3 @@
+2019-07-27 22:28:39,332 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-27 22:28:39,371 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-27 22:28:39,384 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 2

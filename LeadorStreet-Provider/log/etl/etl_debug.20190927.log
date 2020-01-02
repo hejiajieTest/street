@@ -1,0 +1,3 @@
+2019-09-27 10:39:45,184 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from vs_data_source where id =?; delete from vs_data where data_source_id = ?; 
+2019-09-27 10:39:45,218 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: B1F559A4B18A4A0C9C5294B33D7A0660(String), B1F559A4B18A4A0C9C5294B33D7A0660(String)
+2019-09-27 10:39:45,229 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1

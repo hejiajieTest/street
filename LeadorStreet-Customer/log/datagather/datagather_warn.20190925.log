@@ -1,0 +1,732 @@
+2019-09-25 14:41:43,447 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 14:41:44,478 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:44,594 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:44,602 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:57,443 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 14:41:57,676 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:57,747 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:57,779 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:57,816 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:57,851 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:57,885 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:57,926 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:57,972 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:58,019 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:41:58,054 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:34,729 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 14:51:35,277 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:35,352 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:35,352 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:47,290 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 14:51:47,532 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:47,601 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:47,638 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:47,685 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:47,717 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:47,752 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:47,787 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:47,823 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:47,861 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:47,895 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:51:57,440 [WARN ]  (HttpChannel.java.handleException:597) - /visualshow/rest/system/themeRestServer/cloneTheme
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:873)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1623)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:209)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:244)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at com.tscloud.portal.utils.LoginFilter.doFilter(LoginFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.AssertionThreadLocalFilter.doFilter(AssertionThreadLocalFilter.java:50)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.HttpServletRequestWrapperFilter.doFilter(HttpServletRequestWrapperFilter.java:70)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.validation.AbstractTicketValidationFilter.doFilter(AbstractTicketValidationFilter.java:238)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:144)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:100)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1700)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1667)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.tscloud.common.framework.rest.view.JsonViewObject.failPack(JsonViewObject.java:64)
+	at com.tscloud.portal.restful.impl.ThemeRestServerImpl.cloneTheme(ThemeRestServerImpl.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 45 more
+2019-09-25 14:56:22,790 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 14:56:23,347 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:23,422 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:23,422 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:35,315 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 14:56:35,642 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:35,708 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:35,755 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:35,800 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:35,834 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:35,871 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:35,906 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:35,945 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:35,989 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 14:56:36,023 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:00:07,346 [WARN ]  (DefaultFuture.java.received:122) -  [DUBBO] The timeout response finally returned at 2019-09-25 15:00:07.346, response Response [id=3, version=null, status=20, event=false, error=null, result=RpcResult [result=null, exception=com.tscloud.common.framework.Exception.DubboProviderException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'Components' in 'class com.tscloud.domain.resource.entity.Theme']], channel: /192.168.64.1:52908 -> /192.168.64.1:20884, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:00:09,719 [WARN ]  (DefaultFuture.java.received:122) -  [DUBBO] The timeout response finally returned at 2019-09-25 15:00:09.719, response Response [id=1, version=null, status=20, event=false, error=null, result=RpcResult [result=null, exception=com.tscloud.common.framework.Exception.DubboProviderException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'Components' in 'class com.tscloud.domain.resource.entity.Theme']], channel: /192.168.64.1:52908 -> /192.168.64.1:20884, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:00:11,476 [WARN ]  (DefaultFuture.java.received:122) -  [DUBBO] The timeout response finally returned at 2019-09-25 15:00:11.476, response Response [id=2, version=null, status=20, event=false, error=null, result=RpcResult [result=null, exception=com.tscloud.common.framework.Exception.DubboProviderException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'Components' in 'class com.tscloud.domain.resource.entity.Theme']], channel: /192.168.64.1:52908 -> /192.168.64.1:20884, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:00:26,014 [WARN ]  (HttpChannel.java.handleException:597) - /visualshow/rest/system/themeRestServer/cloneTheme
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:873)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1623)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:209)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:244)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at com.tscloud.portal.utils.LoginFilter.doFilter(LoginFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.AssertionThreadLocalFilter.doFilter(AssertionThreadLocalFilter.java:50)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.HttpServletRequestWrapperFilter.doFilter(HttpServletRequestWrapperFilter.java:70)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.validation.AbstractTicketValidationFilter.doFilter(AbstractTicketValidationFilter.java:238)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:144)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:100)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1700)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1667)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.tscloud.common.framework.rest.view.JsonViewObject.failPack(JsonViewObject.java:64)
+	at com.tscloud.portal.restful.impl.ThemeRestServerImpl.cloneTheme(ThemeRestServerImpl.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 45 more
+2019-09-25 15:01:14,517 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 15:01:15,072 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:15,147 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:15,147 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:26,997 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 15:01:27,218 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:27,301 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:27,348 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:27,384 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:27,428 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:27,464 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:27,499 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:27,546 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:27,581 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:01:27,634 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:43:56,907 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 15:43:57,519 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:43:57,623 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:43:57,624 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:09,556 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 15:44:09,774 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:09,846 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:09,882 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:09,918 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:09,962 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:10,009 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:10,055 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:10,102 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:10,137 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:10,173 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:44:17,740 [WARN ]  (HttpChannel.java.handleException:597) - /visualshow/rest/system/themeRestServer/cloneTheme
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:873)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1623)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:209)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:244)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at com.tscloud.portal.utils.LoginFilter.doFilter(LoginFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.AssertionThreadLocalFilter.doFilter(AssertionThreadLocalFilter.java:50)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.HttpServletRequestWrapperFilter.doFilter(HttpServletRequestWrapperFilter.java:70)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.validation.AbstractTicketValidationFilter.doFilter(AbstractTicketValidationFilter.java:238)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:144)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:100)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1700)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1667)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.tscloud.common.framework.rest.view.JsonViewObject.failPack(JsonViewObject.java:64)
+	at com.tscloud.portal.restful.impl.ThemeRestServerImpl.cloneTheme(ThemeRestServerImpl.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 45 more
+2019-09-25 15:45:56,754 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 15:45:57,451 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:45:57,553 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:45:57,553 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:09,739 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 15:46:10,328 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:11,057 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:11,274 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:11,473 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:11,537 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:11,605 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:11,664 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:11,775 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:11,851 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:11,901 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:46:17,334 [WARN ]  (HttpChannel.java.handleException:597) - /visualshow/rest/system/themeRestServer/cloneTheme
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:873)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1623)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:209)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:244)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at com.tscloud.portal.utils.LoginFilter.doFilter(LoginFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.AssertionThreadLocalFilter.doFilter(AssertionThreadLocalFilter.java:50)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.HttpServletRequestWrapperFilter.doFilter(HttpServletRequestWrapperFilter.java:70)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.validation.AbstractTicketValidationFilter.doFilter(AbstractTicketValidationFilter.java:238)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:144)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:100)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1700)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1667)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.tscloud.common.framework.rest.view.JsonViewObject.failPack(JsonViewObject.java:64)
+	at com.tscloud.portal.restful.impl.ThemeRestServerImpl.cloneTheme(ThemeRestServerImpl.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 45 more
+2019-09-25 15:46:22,747 [WARN ]  (HttpChannel.java.handleException:597) - /visualshow/rest/system/themeRestServer/cloneTheme
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:873)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1623)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:209)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:244)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at com.tscloud.portal.utils.LoginFilter.doFilter(LoginFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.AssertionThreadLocalFilter.doFilter(AssertionThreadLocalFilter.java:50)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.HttpServletRequestWrapperFilter.doFilter(HttpServletRequestWrapperFilter.java:70)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.validation.AbstractTicketValidationFilter.doFilter(AbstractTicketValidationFilter.java:238)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:144)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:100)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1700)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1667)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:132)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.tscloud.common.framework.rest.view.JsonViewObject.failPack(JsonViewObject.java:64)
+	at com.tscloud.portal.restful.impl.ThemeRestServerImpl.cloneTheme(ThemeRestServerImpl.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 49 more
+2019-09-25 15:47:58,213 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 15:47:58,747 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:47:58,814 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:47:58,814 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:48:10,713 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 15:48:10,926 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:48:11,035 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:48:11,071 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:48:11,107 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:48:11,140 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:48:11,176 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:48:11,212 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:48:11,258 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:48:11,293 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:48:11,329 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:50:57,556 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 15:50:58,132 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:50:58,217 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:50:58,217 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:51:10,288 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 15:51:10,558 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:51:10,616 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:51:10,667 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:51:10,709 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:51:10,745 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:51:10,791 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:51:10,864 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:51:10,928 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:51:10,964 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:51:10,999 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:56:41,039 [WARN ]  (HttpChannel.java.handleException:597) - /visualshow/rest/system/themeRestServer/cloneTheme
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:873)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1623)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:209)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:244)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at com.tscloud.portal.utils.LoginFilter.doFilter(LoginFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.AssertionThreadLocalFilter.doFilter(AssertionThreadLocalFilter.java:50)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.HttpServletRequestWrapperFilter.doFilter(HttpServletRequestWrapperFilter.java:70)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.validation.AbstractTicketValidationFilter.doFilter(AbstractTicketValidationFilter.java:238)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:144)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:100)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1700)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1667)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.tscloud.common.framework.rest.view.JsonViewObject.failPack(JsonViewObject.java:64)
+	at com.tscloud.portal.restful.impl.ThemeRestServerImpl.cloneTheme(ThemeRestServerImpl.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 45 more
+2019-09-25 15:58:30,414 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 15:58:30,962 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:31,037 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:31,037 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:42,931 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 15:58:43,142 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:43,192 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:43,231 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:43,275 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:43,308 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:43,345 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:43,392 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:43,438 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:43,473 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:43,509 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:58:55,768 [WARN ]  (HttpChannel.java.handleException:597) - /visualshow/rest/system/themeRestServer/cloneTheme
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:873)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1623)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:209)
+	at com.thetransactioncompany.cors.CORSFilter.doFilter(CORSFilter.java:244)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at com.tscloud.portal.utils.LoginFilter.doFilter(LoginFilter.java:53)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.AssertionThreadLocalFilter.doFilter(AssertionThreadLocalFilter.java:50)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.util.HttpServletRequestWrapperFilter.doFilter(HttpServletRequestWrapperFilter.java:70)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.validation.AbstractTicketValidationFilter.doFilter(AbstractTicketValidationFilter.java:238)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:144)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:100)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1700)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1667)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.tscloud.common.framework.rest.view.JsonViewObject.failPack(JsonViewObject.java:64)
+	at com.tscloud.portal.restful.impl.ThemeRestServerImpl.cloneTheme(ThemeRestServerImpl.java:278)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 45 more
+2019-09-25 15:59:43,243 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 15:59:43,860 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:43,935 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:43,935 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:55,821 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 15:59:56,068 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:56,195 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:56,240 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:56,285 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:56,319 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:56,367 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:56,403 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:56,451 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:56,512 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 15:59:56,553 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 16:00:52,229 [WARN ]  (AbstractClient.java.run:171) -  [DUBBO] client reconnect to 192.168.64.1:20884 find error . url: dubbo://192.168.64.1:20884/com.tscloud.domain.resource.provider.ICatalogProvider?anyhost=true&application=com-tscloud-portal&bean.name=ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider&check=false&codec=dubbo&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&generic=false&heartbeat=60000&interface=com.tscloud.domain.resource.provider.ICatalogProvider&methods=findAllByUserId,findById,findByMap,deleteById,save,update,checkName,findByPage,findAll&pid=13140&register.ip=192.168.64.1&remote.timestamp=1569398380747&revision=1.0&side=consumer&timestamp=1569398384069, dubbo version: 2.6.5, current host: 192.168.64.1
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.64.1:20884/com.tscloud.domain.resource.provider.ICatalogProvider?anyhost=true&application=com-tscloud-portal&bean.name=ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider&check=false&codec=dubbo&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&generic=false&heartbeat=60000&interface=com.tscloud.domain.resource.provider.ICatalogProvider&methods=findAllByUserId,findById,findByMap,deleteById,save,update,checkName,findByPage,findAll&pid=13140&register.ip=192.168.64.1&remote.timestamp=1569398380747&revision=1.0&side=consumer&timestamp=1569398384069) failed to connect to server /192.168.64.1:20884, error message is:Connection refused: no further information: /192.168.64.1:20884
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:125)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:275)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:156)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information: /192.168.64.1:20884
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more
+2019-09-25 22:45:45,078 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-25 22:45:45,875 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:45:45,943 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:45:45,943 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:46:00,146 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-25 22:46:00,485 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:46:00,545 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:46:00,592 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:46:00,636 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:46:00,671 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:46:00,707 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:46:00,743 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:46:00,790 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:46:00,824 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:46:00,860 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-25 22:47:02,551 [WARN ]  (AbstractClient.java.run:171) -  [DUBBO] client reconnect to 192.168.64.1:20884 find error . url: dubbo://192.168.64.1:20884/com.tscloud.domain.resource.provider.ICatalogProvider?anyhost=true&application=com-tscloud-portal&bean.name=ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider&check=false&codec=dubbo&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&generic=false&heartbeat=60000&interface=com.tscloud.domain.resource.provider.ICatalogProvider&methods=findAllByUserId,findByMap,findById,deleteById,save,update,checkName,findByPage,findAll&pid=16948&register.ip=192.168.64.1&remote.timestamp=1569422713506&side=consumer&timestamp=1569422746069, dubbo version: 2.6.5, current host: 192.168.64.1
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.64.1:20884/com.tscloud.domain.resource.provider.ICatalogProvider?anyhost=true&application=com-tscloud-portal&bean.name=ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider&check=false&codec=dubbo&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&generic=false&heartbeat=60000&interface=com.tscloud.domain.resource.provider.ICatalogProvider&methods=findAllByUserId,findByMap,findById,deleteById,save,update,checkName,findByPage,findAll&pid=16948&register.ip=192.168.64.1&remote.timestamp=1569422713506&side=consumer&timestamp=1569422746069) failed to connect to server /192.168.64.1:20884, error message is:Connection refused: no further information: /192.168.64.1:20884
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:125)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:275)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:156)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information: /192.168.64.1:20884
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more

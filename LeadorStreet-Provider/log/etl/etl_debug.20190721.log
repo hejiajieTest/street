@@ -1,0 +1,102 @@
+2019-07-21 17:31:06,103 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.layout_id,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.id= ? order by t.priority,t.create_date desc 
+2019-07-21 17:31:06,145 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 91CC301BC94744A68D437DB17AE8BFC6(String)
+2019-07-21 17:31:06,157 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-21 17:34:05,708 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source 
+2019-07-21 17:34:05,709 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-21 17:34:51,800 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t 
+2019-07-21 17:34:51,841 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-21 17:35:53,188 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t 
+2019-07-21 17:35:53,227 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-21 17:35:53,234 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-21 17:36:47,291 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data_source(id,data_source_ip,data_source_port,data_source_name,data_source_account,data_source_password,data_source_type) values(?,?,?,?,?,?,?) 
+2019-07-21 17:36:47,293 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 8BD24810C2CB4B23906E421376C538BB(String), 127.0.0.1(String), 3306(String), visualshow(String), root(String), 123456(String), mysql(String)
+2019-07-21 17:36:47,303 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 17:37:19,948 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t 
+2019-07-21 17:37:19,948 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-21 17:37:19,950 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-21 17:37:38,788 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data_source(id,data_source_ip,data_source_port,data_source_name,data_source_account,data_source_password,data_source_type) values(?,?,?,?,?,?,?) 
+2019-07-21 17:37:38,788 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 1C7D51F4B0024339A0042B76089494A5(String), 127.0.0.1(String), 3306(String), semi(String), root(String), 123456(String), mysql(String)
+2019-07-21 17:37:38,795 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 17:37:47,648 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t 
+2019-07-21 17:37:47,648 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-21 17:37:47,649 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 2
+2019-07-21 18:48:18,947 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t where t.id = ? 
+2019-07-21 18:48:18,989 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 1C7D51F4B0024339A0042B76089494A5(String)
+2019-07-21 18:48:18,998 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-21 18:49:02,659 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t where t.id = ? 
+2019-07-21 18:49:02,659 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 8BD24810C2CB4B23906E421376C538BB(String)
+2019-07-21 18:49:02,661 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-21 18:50:36,512 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t where t.id = ? 
+2019-07-21 18:50:36,513 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 8BD24810C2CB4B23906E421376C538BB(String)
+2019-07-21 18:50:36,514 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-21 18:53:10,888 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t where t.id = ? 
+2019-07-21 18:53:10,889 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 8BD24810C2CB4B23906E421376C538BB(String)
+2019-07-21 18:53:10,891 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-21 18:54:28,228 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t where t.id = ? 
+2019-07-21 18:54:28,228 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 8BD24810C2CB4B23906E421376C538BB(String)
+2019-07-21 18:54:28,229 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-21 20:41:32,819 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data_sets(id,data_sets_name,catalog_id) values(?,?,?) 
+2019-07-21 20:41:32,861 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: EC53C76E90EC4E33B78BBD3D022FF86D(String), 人口数据(String), C28931DFE02E41F7BA7D5F14FBE72B6E(String)
+2019-07-21 20:41:32,865 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:46:09,292 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 20:46:09,293 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: null, EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_catalog(String), null
+2019-07-21 20:48:25,729 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 20:48:25,773 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: D8CF7FD6DE1341B38C29E68ECE80DDE5(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_catalog(String), null
+2019-07-21 20:48:25,785 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:48:25,786 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 20:48:25,787 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 6DC497BA3A2A4A6682AE6CE8FE1ECB52(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_components(String), null
+2019-07-21 20:48:25,791 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:48:25,791 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 20:48:25,792 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 408241EE72E44B34AE3CA7E3A78A5ADC(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_theme(String), null
+2019-07-21 20:48:25,795 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:50:34,787 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 20:50:34,789 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 697BE3A50AA341D1B38238BFE9F63A0B(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_catalog(String), null
+2019-07-21 20:50:34,800 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:50:34,802 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 20:50:34,803 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: ED89AABCBBDB401D97543D8836DF6787(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_components(String), null
+2019-07-21 20:50:34,807 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:50:34,808 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 20:50:34,809 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: AE6C3E1EF13E42C0B5B4D9ED0BB85710(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_theme(String), null
+2019-07-21 20:50:34,813 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:53:11,448 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 20:53:11,486 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 8C873928CDD748B08906F9E36AAC7103(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_catalog(String), null
+2019-07-21 20:53:11,498 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:53:11,499 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 20:53:11,500 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 5918CFD277054449A0874F9FACEA6080(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_components(String), null
+2019-07-21 20:53:11,504 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:53:11,504 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 20:53:11,505 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 3E551D8D2057436488D411D5D97B8553(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_theme(String), null
+2019-07-21 20:53:11,508 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:55:54,884 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from vs_data where id =? 
+2019-07-21 20:55:54,885 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 3E551D8D2057436488D411D5D97B8553(String)
+2019-07-21 20:55:54,895 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:57:21,462 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from vs_data where id =? 
+2019-07-21 20:57:21,462 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 5918CFD277054449A0874F9FACEA6080,8C873928CDD748B08906F9E36AAC7103(String)
+2019-07-21 20:57:21,463 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 0
+2019-07-21 20:58:11,812 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from vs_data where id =? 
+2019-07-21 20:58:11,813 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 5918CFD277054449A0874F9FACEA6080(String)
+2019-07-21 20:58:11,823 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 20:58:11,826 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from vs_data where id =? 
+2019-07-21 20:58:11,827 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 8C873928CDD748B08906F9E36AAC7103(String)
+2019-07-21 20:58:11,830 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 21:00:39,317 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 21:00:39,318 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2B5C49C6148C45729F1AC4B084A26B1F(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_catalog(String), null
+2019-07-21 21:00:39,333 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 21:00:39,333 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 21:00:39,333 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: F478C931B8C24484B9D19645CF2C4977(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_components(String), null
+2019-07-21 21:00:39,337 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 21:00:39,337 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_data(id,data_sets_id,data_source_id,data_name,data_name_chinese) values(?,?,?,?,?) 
+2019-07-21 21:00:39,338 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 03718C9F8B3E43A0B95D3DFF522257B5(String), EC53C76E90EC4E33B78BBD3D022FF86D(String), 8BD24810C2CB4B23906E421376C538BB(String), vs_theme(String), null
+2019-07-21 21:00:39,342 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 21:06:43,770 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese from vs_data t WHERE t.data_sets_id = ? 
+2019-07-21 21:06:43,809 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: EC53C76E90EC4E33B78BBD3D022FF86D(String)
+2019-07-21 21:06:43,829 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-21 21:09:45,021 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese from vs_data t WHERE t.id= ? and t.data_name_chinese like CONCAT('%',?,'%' ) 
+2019-07-21 21:09:45,021 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 03718C9F8B3E43A0B95D3DFF522257B5(String), 主题表(String)
+2019-07-21 21:09:45,023 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-21 21:10:15,951 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_data t SET t.data_name_chinese = ? where t.id=? 
+2019-07-21 21:10:15,952 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 主题表(String), 03718C9F8B3E43A0B95D3DFF522257B5(String)
+2019-07-21 21:10:15,976 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-21 21:14:59,189 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_theme t SET t.catalog_id = ?, t.update_date = ?, t.priority = ? where t.id=? 
+2019-07-21 21:14:59,197 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: E577128AF6014D07A6525ABADB441A24(String), 2019-07-21 21:14:59.185(Timestamp), 1(Integer), 2(String)
+2019-07-21 21:14:59,210 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1

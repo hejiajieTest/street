@@ -1,0 +1,593 @@
+2019-07-19 11:06:46,930 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:06:46,932 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:06:46,934 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:06:46,935 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:06:47,890 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:06:47,891 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:06:50,172 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:06:52,278 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:06:54,381 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:06:56,484 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:06:58,588 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:00,692 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:02,796 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:04,900 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:07,003 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:09,106 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:11,211 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:13,316 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:15,419 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:17,531 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:19,634 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:21,738 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:23,843 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:25,945 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:28,048 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:30,153 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:32,256 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:34,359 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:36,463 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:38,567 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:40,671 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:42,775 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:44,878 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:46,982 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:49,087 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:51,190 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:53,294 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:55,399 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:57,501 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:07:59,604 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:01,708 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:03,813 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:05,917 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:08,031 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:10,133 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:12,237 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:14,342 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:16,447 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:18,550 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:20,652 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:22,755 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:24,859 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:26,961 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:29,063 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:31,166 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:33,269 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:35,372 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:37,475 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:39,579 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:41,685 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:43,788 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:45,892 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:47,993 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:50,098 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:52,203 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:54,307 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:56,411 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:08:58,515 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:09:08,454 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:08,456 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:08,457 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:08,458 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:09,054 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:09,054 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:10,991 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:09:13,099 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:09:15,202 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:09:17,305 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:09:19,410 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:09:21,514 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:09:23,619 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 11:09:30,845 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:30,847 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:30,849 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:30,850 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:31,395 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:09:31,395 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 11:10:09,148 [WARN ]  (AbstractServer.java.disconnected:205) -  [DUBBO] All clients has discontected from /192.168.43.195:20884. You can graceful shutdown now., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:22:48,153 [WARN ]  (AbstractServer.java.disconnected:205) -  [DUBBO] All clients has discontected from /192.168.43.195:20884. You can graceful shutdown now., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:23:02,848 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 12:23:02,849 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 12:23:02,851 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 12:23:02,852 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 12:23:03,380 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 12:23:03,380 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 12:24:09,291 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:24:09,292 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:24:09,293 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:24:09,294 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:24:09,991 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:24:09,991 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:25:03,471 [WARN ]  (AbstractServer.java.disconnected:205) -  [DUBBO] All clients has discontected from /192.168.43.195:20884. You can graceful shutdown now., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:25:14,389 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:25:14,390 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:25:14,391 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:25:14,392 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:25:14,891 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:25:14,892 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:29:23,458 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:29:23,459 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:29:23,460 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:29:23,461 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:29:23,951 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:29:23,951 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 12:29:43,827 [WARN ]  (AbstractServer.java.disconnected:205) -  [DUBBO] All clients has discontected from /192.168.43.195:20884. You can graceful shutdown now., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 13:50:01,873 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:50:01,874 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:50:01,875 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:50:01,876 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:50:01,877 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:50:02,380 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:50:02,380 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:50:32,235 [WARN ]  (AbstractServer.java.disconnected:205) -  [DUBBO] All clients has discontected from /127.0.0.1:20884. You can graceful shutdown now., dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:55:14,629 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:55:14,630 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:55:14,631 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:55:14,633 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:55:14,634 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:55:15,172 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:55:15,173 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 13:55:28,132 [WARN ]  (AbstractServer.java.disconnected:205) -  [DUBBO] All clients has discontected from /127.0.0.1:20884. You can graceful shutdown now., dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:08:31,547 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:08:31,548 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:08:31,549 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:08:31,551 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:08:31,553 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:08:32,089 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:08:32,089 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:13:52,052 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:13:52,053 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:13:52,054 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:13:52,055 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:13:52,056 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:13:52,614 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:13:52,614 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:15:50,249 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:15:50,250 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:15:50,252 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:15:50,253 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:15:50,255 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:15:50,794 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 14:15:50,794 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 127.0.0.1
+2019-07-19 15:08:24,788 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:08:24,790 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:08:24,790 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:272) -  [DUBBO] The Duplicated BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean[ bean name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider] was be found , Did @DubboComponentScan scan to same package in many times?, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:08:24,791 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:08:24,793 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:08:24,794 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:08:25,335 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:08:25,335 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:08:54,491 [WARN ]  (AbstractServer.java.disconnected:205) -  [DUBBO] All clients has discontected from /192.168.43.195:20884. You can graceful shutdown now., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:10:07,060 [WARN ]  (AbstractServer.java.disconnected:205) -  [DUBBO] All clients has discontected from /192.168.43.195:20884. You can graceful shutdown now., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:13:01,815 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:13:01,816 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:13:01,817 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:13:01,818 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:13:01,820 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:13:01,821 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:13:02,412 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:13:02,412 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:13:36,080 [WARN ]  (AbstractServer.java.disconnected:205) -  [DUBBO] All clients has discontected from /192.168.43.195:20884. You can graceful shutdown now., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:51:54,726 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:51:54,727 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:51:54,728 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:51:54,729 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:51:54,730 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:51:54,731 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:51:55,256 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:51:55,257 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:55:19,312 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:55:19,314 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:55:19,314 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:55:19,316 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:55:19,317 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:55:19,318 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:55:19,919 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:55:19,920 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:55:59,161 [WARN ]  (AbstractServer.java.disconnected:205) -  [DUBBO] All clients has discontected from /192.168.43.195:20884. You can graceful shutdown now., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:56:09,638 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:56:09,639 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:56:09,640 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:56:09,642 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:56:09,643 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IManualInfoProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:56:09,644 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBean:265) -  [DUBBO] The BeanDefinition[Root bean: class [com.alibaba.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:56:10,228 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 15:56:10,228 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.43.195
+2019-07-19 18:12:07,247 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x1002484e3500022 for server 127.0.0.1/127.0.0.1:2181, unexpected error, closing socket connection and attempting reconnect
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 18:12:10,278 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x1002484e3500022 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 18:12:12,477 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x1002484e3500022 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 18:12:14,793 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x1002484e3500022 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 18:12:17,833 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x1002484e3500022 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 18:12:20,402 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x1002484e3500022 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 18:12:23,067 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x1002484e3500022 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-07-19 18:12:25,376 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x1002484e3500022 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)

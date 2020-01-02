@@ -1,0 +1,191 @@
+2019-11-20 10:28:55,995 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-11-20 10:28:56,026 [WARN ]  (WebAppContext.java.doStart:554) - Failed startup of context o.e.j.w.WebAppContext@add0edd{/visualshow,file:///D:/kaifa/VisualShow/VisualShow-Portal/src/main/webapp/,UNAVAILABLE}
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:302)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.logging.LogFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 20 more
+2019-11-20 10:31:40,534 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-11-20 10:31:40,563 [WARN ]  (WebAppContext.java.doStart:554) - Failed startup of context o.e.j.w.WebAppContext@add0edd{/visualshow,file:///D:/kaifa/VisualShow/VisualShow-Portal/src/main/webapp/,UNAVAILABLE}
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:302)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.logging.LogFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 20 more
+2019-11-20 10:31:53,411 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-11-20 10:31:53,441 [WARN ]  (WebAppContext.java.doStart:554) - Failed startup of context o.e.j.w.WebAppContext@add0edd{/visualshow,file:///D:/kaifa/VisualShow/VisualShow-Portal/src/main/webapp/,UNAVAILABLE}
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:302)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.logging.LogFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 20 more
+2019-11-20 10:35:24,345 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-11-20 10:35:24,933 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:35:24,980 [WARN ]  (WebAppContext.java.doStart:554) - Failed startup of context o.e.j.w.WebAppContext@36060e{/visualshow,file:///D:/kaifa/VisualShow/VisualShow-Portal/src/main/webapp/,UNAVAILABLE}
+java.lang.NoSuchMethodError: org.springframework.aop.framework.AopProxyUtils.getSingletonTarget(Ljava/lang/Object;)Ljava/lang/Object;
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.addApplicationListener(AbstractApplicationEventMulticaster.java:105)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:810)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:540)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+2019-11-20 10:35:33,220 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-11-20 10:35:33,726 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:35:33,766 [WARN ]  (WebAppContext.java.doStart:554) - Failed startup of context o.e.j.w.WebAppContext@36060e{/visualshow,file:///D:/kaifa/VisualShow/VisualShow-Portal/src/main/webapp/,UNAVAILABLE}
+java.lang.NoSuchMethodError: org.springframework.aop.framework.AopProxyUtils.getSingletonTarget(Ljava/lang/Object;)Ljava/lang/Object;
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.addApplicationListener(AbstractApplicationEventMulticaster.java:105)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:810)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:540)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+2019-11-20 10:36:48,112 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-11-20 10:36:48,637 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:36:48,698 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:36:48,698 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:00,747 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-11-20 10:37:01,017 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:01,074 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:01,105 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICityInfoProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:01,145 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:01,178 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:01,213 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:01,250 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:01,286 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:01,322 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:01,356 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:01,391 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:12,458 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-11-20 10:37:12,982 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:13,042 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:13,042 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:24,851 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-11-20 10:37:25,060 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:25,127 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:25,160 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICityInfoProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:25,195 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:25,231 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:25,267 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:25,302 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:25,338 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:25,374 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:25,410 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:37:25,445 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:49:58,177 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-11-20 10:49:58,690 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:49:58,752 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:49:58,752 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:10,573 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-11-20 10:50:10,772 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:10,837 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:10,874 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICityInfoProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:10,906 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:10,941 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:10,979 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:11,014 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:11,049 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:11,084 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:11,120 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-11-20 10:50:11,156 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1

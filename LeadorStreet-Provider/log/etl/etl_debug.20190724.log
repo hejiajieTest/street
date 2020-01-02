@@ -1,0 +1,342 @@
+2019-07-24 14:54:25,184 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_theme(id,theme_name,catalog_id,theme_describe,layout_id,scene_type,create_date,update_date,priority) values(?,?,?,?,?,?,?,?,?) 
+2019-07-24 14:54:25,243 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 01C7471EB5684D9293FE98CC362F2E97(String), null, 2(String), null, null, forPhone(String), 2019-07-24 14:54:24.705(Timestamp), null, 1000(Integer)
+2019-07-24 14:56:15,542 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_theme(id,theme_name,catalog_id,theme_describe,scene_type,create_date,update_date,priority) values(?,?,?,?,?,?,?,?) 
+2019-07-24 14:56:15,586 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: F3526044AD794D889544AF9600499BF7(String), null, 2(String), null, forPhone(String), 2019-07-24 14:56:15.182(Timestamp), null, 1000(Integer)
+2019-07-24 14:57:06,797 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_theme(id,theme_name,catalog_id,theme_describe,scene_type,create_date,update_date,priority) values(?,?,?,?,?,?,?,?) 
+2019-07-24 14:57:06,798 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 00200C0A2FCF40518D72E13387A10015(String), null, 2(String), null, forPhone(String), 2019-07-24 14:57:06.797(Timestamp), null, 1000(Integer)
+2019-07-24 14:57:06,811 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-24 14:59:22,052 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_theme(id,theme_name,catalog_id,theme_describe,scene_type,create_date,update_date,priority) values(?,?,?,?,?,?,?,?) 
+2019-07-24 14:59:22,093 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: EB552A71CB6E4526A445C7E4A7ADB276(String), 测试主题一(String), 2(String), null, forPhone(String), 2019-07-24 14:59:21.694(Timestamp), null, 1(Integer)
+2019-07-24 14:59:22,102 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-24 15:01:31,686 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_theme(id,theme_name,catalog_id,theme_describe,scene_type,create_date,update_date,priority) values(?,?,?,?,?,?,?,?) 
+2019-07-24 15:01:31,731 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 9B6CB3D23FCA4CB7BCED1CDF9EF1A035(String), 测试主题一(String), 2(String), null, forPhone(String), 2019-07-24 15:01:31.289(Timestamp), null, 1000(Integer)
+2019-07-24 15:01:31,736 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-24 15:40:02,454 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.layout_id,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:40:02,489 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:42:31,906 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:42:31,952 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:42:31,965 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:43:19,733 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:43:19,734 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:43:19,735 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:44:12,513 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:44:12,551 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:44:12,561 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:45:11,678 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:45:11,678 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:45:11,680 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:45:24,610 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:45:24,610 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:45:24,612 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:45:36,752 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:45:36,752 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:45:36,753 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:46:25,921 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:46:25,921 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:46:25,922 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:46:34,607 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:46:34,607 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:46:34,608 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:47:03,390 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:47:03,391 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:47:03,392 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:48:04,029 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:48:04,030 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:48:04,033 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:49:07,944 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:49:07,944 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:49:07,946 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:53:46,924 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:53:46,925 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:53:46,929 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 15:57:40,331 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 15:57:40,382 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2(String)
+2019-07-24 15:57:40,397 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:00:45,242 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.id= ? order by t.priority,t.create_date desc 
+2019-07-24 16:00:45,243 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 16:00:45,245 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-24 16:02:16,054 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:02:16,054 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:02:16,061 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:03:44,208 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:03:44,209 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:03:44,211 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:03:47,532 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:03:47,532 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:03:47,533 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:05:19,722 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:05:19,722 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:05:19,723 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:15:26,134 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 16:15:26,134 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 16:15:26,136 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 2
+2019-07-24 16:15:44,763 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 16:15:44,764 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 16:15:44,765 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 2
+2019-07-24 16:16:23,535 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 16:16:23,536 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 16:16:23,537 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-24 16:21:01,892 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 16:21:01,893 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 16:21:01,895 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 16:23:08,480 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:23:08,518 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:23:08,527 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:23:15,846 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 16:23:15,847 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 16:23:15,853 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-24 16:23:31,060 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:23:31,061 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:23:31,062 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:23:47,762 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 16:23:47,762 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 16:23:47,764 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 16:24:01,073 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:24:01,073 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:24:01,074 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:24:30,731 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:24:30,732 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:24:30,733 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:25:00,373 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:25:00,374 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:25:00,375 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:25:12,051 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 16:25:12,052 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 16:25:12,054 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 16:25:14,319 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:25:14,319 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:25:14,320 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:25:51,375 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:25:51,376 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:25:51,377 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:25:51,474 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:25:51,474 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:25:51,475 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:25:56,703 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:25:56,703 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:25:56,704 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:25:56,884 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:25:56,884 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:25:56,885 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:26:39,527 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 16:26:39,527 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 16:26:39,529 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 16:26:42,517 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:26:42,517 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:26:42,518 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:26:44,136 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:26:44,138 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:26:44,139 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:27:03,263 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 16:27:03,263 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 16:27:03,266 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 16:28:57,657 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:28:57,657 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:28:57,658 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:29:42,432 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:29:42,432 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:29:42,433 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:30:13,004 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 16:30:13,005 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 16:30:13,006 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 16:41:01,538 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:41:01,539 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:41:01,541 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:41:47,996 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 16:41:47,997 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 16:41:47,998 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 16:41:52,055 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:41:52,055 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:41:52,056 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:46:51,768 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:46:51,769 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:46:51,771 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:48:17,986 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 16:48:17,987 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 16:48:17,988 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 16:52:54,409 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 16:52:54,410 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 16:52:54,411 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-24 16:53:23,108 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:53:23,109 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:53:23,110 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:53:23,251 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:53:23,251 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:53:23,252 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:53:29,488 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:53:29,488 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:53:29,489 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:53:29,520 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:53:29,520 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:53:29,521 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:53:42,030 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:53:42,030 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:53:42,031 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:53:42,063 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:53:42,064 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:53:42,064 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:54:07,727 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:54:07,727 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:54:07,728 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:54:44,513 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:54:44,513 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:54:44,514 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:55:08,772 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:55:08,773 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:55:08,773 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:55:39,034 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:55:39,035 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:55:39,036 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:55:39,078 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:55:39,078 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:55:39,079 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:55:46,067 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:55:46,067 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:55:46,068 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:56:02,347 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:56:02,347 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:56:02,348 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:56:05,242 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:56:05,243 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:56:05,245 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:56:32,357 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:56:32,358 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:56:32,358 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:56:34,832 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:56:34,832 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:56:34,833 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:56:44,173 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 16:56:44,173 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 16:56:44,174 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 16:57:31,466 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:57:31,467 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:57:31,468 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 16:57:31,975 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 16:57:31,975 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 16:57:31,976 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-24 16:59:32,762 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 16:59:32,763 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 16:59:32,763 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:01:00,837 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:01:00,837 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:01:00,838 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:02:08,516 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:02:08,517 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:02:08,518 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:05:04,017 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:05:04,017 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:05:04,018 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:11:11,072 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 17:11:11,113 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 17:11:11,125 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-24 17:26:03,332 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:26:03,333 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:26:03,335 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:26:03,462 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:26:03,463 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:26:03,466 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:26:22,408 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:26:22,409 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:26:22,410 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:26:22,533 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:26:22,533 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:26:22,535 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:27:05,820 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:27:05,820 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:27:05,821 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:27:05,930 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:27:05,930 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:27:05,932 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:29:54,249 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t 
+2019-07-24 17:29:54,249 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:29:54,262 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 2
+2019-07-24 17:30:00,572 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:30:00,574 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:30:00,576 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:30:00,721 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:30:00,722 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:30:00,725 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:30:02,725 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:30:02,725 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:30:02,727 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:30:04,313 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:30:04,314 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:30:04,315 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:30:34,567 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:30:34,567 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:30:34,568 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:30:34,698 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:30:34,698 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:30:34,699 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:31:00,210 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:31:00,212 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:31:00,215 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:33:42,795 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t where t.id = ? 
+2019-07-24 17:33:42,796 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: (String)
+2019-07-24 17:33:42,798 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-24 17:34:00,058 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t where t.id = ? 
+2019-07-24 17:34:00,059 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: (String)
+2019-07-24 17:34:00,063 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-24 17:34:14,890 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_source_ip,t.data_source_port,t.data_source_name,t.data_source_account,t.data_source_password,t.data_source_type from vs_data_source t where t.id = ? 
+2019-07-24 17:34:14,890 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 1C7D51F4B0024339A0042B76089494A5(String)
+2019-07-24 17:34:14,891 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:34:32,444 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:34:32,445 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:34:32,451 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:34:33,327 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:34:33,328 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:34:33,329 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:34:34,278 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:34:34,279 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:34:34,280 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:34:34,894 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:34:34,895 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:34:34,896 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:34:36,237 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:34:36,238 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:34:36,239 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:34:36,978 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:34:36,978 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:34:36,979 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:34:37,625 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:34:37,625 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:34:37,626 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:34:59,589 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:34:59,589 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:34:59,590 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:35:25,496 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:35:25,497 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:35:25,500 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:37:46,523 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:37:46,523 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:37:46,525 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:37:46,814 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t order by t.priority,t.create_date desc 
+2019-07-24 17:37:46,815 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-24 17:37:46,816 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 4
+2019-07-24 17:37:57,752 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:37:57,753 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:37:57,754 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:37:57,962 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 17:37:57,965 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 17:37:57,966 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-24 17:38:00,127 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 17:38:00,128 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 22EE66F9F7BC4D5CB89B8E2E01C6E3A3(String)
+2019-07-24 17:38:00,128 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-24 17:38:26,366 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-07-24 17:38:26,366 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-07-24 17:38:26,368 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:38:26,488 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 17:38:26,488 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 17:38:26,489 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-24 17:38:27,897 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 17:38:27,899 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 22EE66F9F7BC4D5CB89B8E2E01C6E3A3(String)
+2019-07-24 17:38:27,901 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-24 17:38:33,433 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 17:38:33,434 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 17:38:33,435 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-24 17:38:34,828 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 17:38:34,829 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: a278d645d5f54c4091556fae06a00aa7(String)
+2019-07-24 17:38:34,830 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 3
+2019-07-24 17:38:35,712 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority from vs_theme t WHERE t.catalog_id = ? order by t.priority,t.create_date desc 
+2019-07-24 17:38:35,713 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 22EE66F9F7BC4D5CB89B8E2E01C6E3A3(String)
+2019-07-24 17:38:35,713 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1

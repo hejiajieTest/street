@@ -1,0 +1,90 @@
+2019-09-29 15:27:37,228 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority,t.data_sets_id,t.cover_img_url,t.cover_real_name,t.cover_name from vs_theme t where t.id = ? 
+2019-09-29 15:27:37,281 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:27:37,297 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:27:37,375 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.layout_style,t.theme_id,t.page_config from vs_layout t where t.theme_id= ? 
+2019-09-29 15:27:37,377 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:27:37,382 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:27:37,474 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.content,t.event,t.components_type,t.theme_id,t.data_source, t.title,t.static_data,t.common_style,t.component_id,t.create_date,t.extend from vs_components t where t.theme_id= ? 
+2019-09-29 15:27:37,475 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:27:37,480 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:27:37,507 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_name,t.catalog_id,t.create_date,t.update_date from vs_data_sets t where t.id =? 
+2019-09-29 15:27:37,508 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: null
+2019-09-29 15:27:37,513 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-09-29 15:27:37,527 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese,t.create_date,t.update_date from vs_data t 
+2019-09-29 15:27:37,528 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-09-29 15:27:37,536 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 12
+2019-09-29 15:37:20,994 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority,t.data_sets_id,t.cover_img_url,t.cover_real_name,t.cover_name from vs_theme t where t.id = ? 
+2019-09-29 15:37:21,050 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:37:21,062 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:37:21,127 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.layout_style,t.theme_id,t.page_config from vs_layout t where t.theme_id= ? 
+2019-09-29 15:37:21,128 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:37:21,131 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:37:21,169 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.content,t.event,t.components_type,t.theme_id,t.data_source, t.title,t.static_data,t.common_style,t.component_id,t.create_date,t.extend from vs_components t where t.theme_id= ? 
+2019-09-29 15:37:21,170 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:37:21,174 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:37:21,186 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_name,t.catalog_id,t.create_date,t.update_date from vs_data_sets t where t.id =? 
+2019-09-29 15:37:21,187 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: null
+2019-09-29 15:37:21,189 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-09-29 15:37:21,197 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese,t.create_date,t.update_date from vs_data t 
+2019-09-29 15:37:21,197 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-09-29 15:37:21,201 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 12
+2019-09-29 15:42:06,098 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority,t.data_sets_id,t.cover_img_url,t.cover_real_name,t.cover_name from vs_theme t where t.id = ? 
+2019-09-29 15:42:06,099 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:42:06,100 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:42:06,103 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.layout_style,t.theme_id,t.page_config from vs_layout t where t.theme_id= ? 
+2019-09-29 15:42:06,103 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:42:06,106 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:42:06,108 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.content,t.event,t.components_type,t.theme_id,t.data_source, t.title,t.static_data,t.common_style,t.component_id,t.create_date,t.extend from vs_components t where t.theme_id= ? 
+2019-09-29 15:42:06,109 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:42:06,111 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:42:06,116 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_name,t.catalog_id,t.create_date,t.update_date from vs_data_sets t where t.id =? 
+2019-09-29 15:42:06,116 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: null
+2019-09-29 15:42:06,119 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-09-29 15:42:06,122 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese,t.create_date,t.update_date from vs_data t 
+2019-09-29 15:42:06,122 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-09-29 15:42:06,126 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 12
+2019-09-29 15:44:08,128 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority,t.data_sets_id,t.cover_img_url,t.cover_real_name,t.cover_name from vs_theme t where t.id = ? 
+2019-09-29 15:44:08,128 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:44:08,130 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:44:08,135 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.layout_style,t.theme_id,t.page_config from vs_layout t where t.theme_id= ? 
+2019-09-29 15:44:08,136 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:44:08,137 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:44:08,139 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.content,t.event,t.components_type,t.theme_id,t.data_source, t.title,t.static_data,t.common_style,t.component_id,t.create_date,t.extend from vs_components t where t.theme_id= ? 
+2019-09-29 15:44:08,140 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:44:08,141 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:44:08,143 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_name,t.catalog_id,t.create_date,t.update_date from vs_data_sets t where t.id =? 
+2019-09-29 15:44:08,144 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: null
+2019-09-29 15:44:08,144 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-09-29 15:44:08,147 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese,t.create_date,t.update_date from vs_data t 
+2019-09-29 15:44:08,147 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-09-29 15:44:08,149 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 12
+2019-09-29 15:44:39,119 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority,t.data_sets_id,t.cover_img_url,t.cover_real_name,t.cover_name from vs_theme t where t.id = ? 
+2019-09-29 15:44:39,121 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:44:39,124 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:44:43,608 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.layout_style,t.theme_id,t.page_config from vs_layout t where t.theme_id= ? 
+2019-09-29 15:44:43,609 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:44:43,610 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:44:52,045 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.content,t.event,t.components_type,t.theme_id,t.data_source, t.title,t.static_data,t.common_style,t.component_id,t.create_date,t.extend from vs_components t where t.theme_id= ? 
+2019-09-29 15:44:52,046 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:44:52,047 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:44:53,025 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_name,t.catalog_id,t.create_date,t.update_date from vs_data_sets t where t.id =? 
+2019-09-29 15:44:53,025 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: null
+2019-09-29 15:44:53,026 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-09-29 15:44:57,935 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese,t.create_date,t.update_date from vs_data t 
+2019-09-29 15:44:57,936 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-09-29 15:44:57,941 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 12
+2019-09-29 15:46:27,724 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.theme_name,t.catalog_id,t.theme_describe,t.scene_type,t.create_date,t.update_date,t.priority,t.data_sets_id,t.cover_img_url,t.cover_real_name,t.cover_name from vs_theme t where t.id = ? 
+2019-09-29 15:46:27,724 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:46:27,725 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:46:30,467 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.layout_style,t.theme_id,t.page_config from vs_layout t where t.theme_id= ? 
+2019-09-29 15:46:30,468 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:46:30,469 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:46:30,472 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.content,t.event,t.components_type,t.theme_id,t.data_source, t.title,t.static_data,t.common_style,t.component_id,t.create_date,t.extend from vs_components t where t.theme_id= ? 
+2019-09-29 15:46:30,472 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: FE100B43CFFC4FCCA7F6A24802E97286(String)
+2019-09-29 15:46:30,473 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-09-29 15:46:30,475 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_name,t.catalog_id,t.create_date,t.update_date from vs_data_sets t where t.id =? 
+2019-09-29 15:46:30,476 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: null
+2019-09-29 15:46:30,476 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-09-29 15:46:30,478 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese,t.create_date,t.update_date from vs_data t 
+2019-09-29 15:46:30,478 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-09-29 15:46:30,479 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 12

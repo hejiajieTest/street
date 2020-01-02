@@ -1,0 +1,27 @@
+2019-11-26 11:16:40,030 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-11-26 11:16:40,082 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-11-26 11:16:40,114 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 15
+2019-11-26 11:16:40,546 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-11-26 11:16:40,547 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-11-26 11:16:40,556 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 15
+2019-11-26 11:16:52,654 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-11-26 11:16:52,654 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-11-26 11:16:52,658 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 15
+2019-11-26 11:16:52,687 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-11-26 11:16:52,688 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-11-26 11:16:52,690 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 15
+2019-11-26 11:19:04,936 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-11-26 11:19:04,972 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-11-26 11:19:04,987 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 15
+2019-11-26 11:19:05,222 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-11-26 11:19:05,223 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-11-26 11:19:05,229 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 15
+2019-11-26 11:19:14,516 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-11-26 11:19:14,517 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-11-26 11:19:14,520 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 15
+2019-11-26 11:30:14,137 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-11-26 11:30:14,137 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-11-26 11:30:14,140 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 15
+2019-11-26 11:31:49,000 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-11-26 11:31:49,036 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-11-26 11:31:49,049 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 15

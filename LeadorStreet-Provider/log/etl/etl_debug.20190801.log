@@ -1,0 +1,27 @@
+2019-08-01 16:39:59,108 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_theme t set t.data_sets_id = ? where t.id=? 
+2019-08-01 16:39:59,172 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: null, null
+2019-08-01 16:39:59,190 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 0
+2019-08-01 16:39:59,262 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese from vs_data t 
+2019-08-01 16:39:59,263 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-08-01 16:39:59,278 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 14
+2019-08-01 16:40:06,707 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_theme t set t.data_sets_id = ? where t.id=? 
+2019-08-01 16:40:06,707 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: null, null
+2019-08-01 16:40:06,709 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 0
+2019-08-01 16:40:06,711 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese from vs_data t 
+2019-08-01 16:40:06,711 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-08-01 16:40:06,714 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 14
+2019-08-01 16:41:09,740 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_theme t set t.data_sets_id = ? where t.id=? 
+2019-08-01 16:41:09,741 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: null, null
+2019-08-01 16:41:09,741 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 0
+2019-08-01 16:41:21,884 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.data_sets_id,t.data_source_id,t.data_name,t.data_name_chinese from vs_data t 
+2019-08-01 16:41:21,885 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-08-01 16:41:21,886 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 14
+2019-08-01 22:28:02,753 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-08-01 22:28:02,801 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-08-01 22:28:02,847 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 2
+2019-08-01 22:28:37,090 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-08-01 22:28:37,127 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-08-01 22:28:37,136 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 2
+2019-08-01 22:28:52,637 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-08-01 22:28:52,638 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-08-01 22:28:52,640 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 2

@@ -1,0 +1,130 @@
+2019-09-27 10:37:22,136 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-27 10:37:23,111 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:37:23,239 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:37:23,243 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:37:34,938 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:37,043 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:39,147 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:41,249 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:43,354 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:45,456 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:47,560 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:49,662 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:51,768 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:53,872 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:55,975 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:37:58,079 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:38:00,184 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:38:02,286 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:38:04,390 [WARN ]  (ClientCnxn.java.run:1102) - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2019-09-27 10:38:46,883 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-09-27 10:38:47,583 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:38:47,660 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:38:47,660 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:38:59,903 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-09-27 10:39:00,220 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:39:00,276 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:39:00,325 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:39:00,368 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:39:00,403 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:39:00,437 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:39:00,473 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:39:00,517 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:39:00,567 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:39:00,608 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-09-27 10:43:10,358 [WARN ]  (AbstractClient.java.run:171) -  [DUBBO] client reconnect to 192.168.64.1:20884 find error . url: dubbo://192.168.64.1:20884/com.tscloud.domain.resource.provider.ICatalogProvider?anyhost=true&application=com-tscloud-portal&bean.name=ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider&check=false&codec=dubbo&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&generic=false&heartbeat=60000&interface=com.tscloud.domain.resource.provider.ICatalogProvider&methods=findAllByUserId,findById,findByMap,deleteById,save,update,checkName,findByPage,findAll&pid=4448&register.ip=192.168.64.1&remote.timestamp=1569551923407&side=consumer&timestamp=1569551927816, dubbo version: 2.6.5, current host: 192.168.64.1
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.64.1:20884/com.tscloud.domain.resource.provider.ICatalogProvider?anyhost=true&application=com-tscloud-portal&bean.name=ServiceBean:com.tscloud.domain.resource.provider.ICatalogProvider&check=false&codec=dubbo&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&generic=false&heartbeat=60000&interface=com.tscloud.domain.resource.provider.ICatalogProvider&methods=findAllByUserId,findById,findByMap,deleteById,save,update,checkName,findByPage,findAll&pid=4448&register.ip=192.168.64.1&remote.timestamp=1569551923407&side=consumer&timestamp=1569551927816) failed to connect to server /192.168.64.1:20884, error message is:Connection refused: no further information: /192.168.64.1:20884
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:125)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:275)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:156)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information: /192.168.64.1:20884
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	... 3 more

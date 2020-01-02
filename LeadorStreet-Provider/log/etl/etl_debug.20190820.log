@@ -1,0 +1,12 @@
+2019-08-20 15:41:48,996 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_theme t SET t.update_date = ?, t.priority = ?, t.cover_img_url = ?, t.cover_real_name = ?, t.cover_name = ? where t.id=? 
+2019-08-20 15:41:49,052 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2019-08-20 15:41:48.468(Timestamp), 1(Integer), /opt/themeCoverImgPath\1566286899419961.png(String), blob.png(String), 1566286899419961.png(String), (String)
+2019-08-20 15:41:49,057 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 0
+2019-08-20 15:41:59,781 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_theme t SET t.update_date = ?, t.priority = ?, t.cover_img_url = ?, t.cover_real_name = ?, t.cover_name = ? where t.id=? 
+2019-08-20 15:41:59,860 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2019-08-20 15:41:59.78(Timestamp), 1(Integer), /opt/themeCoverImgPath\1566286919778258.png(String), blob.png(String), 1566286919778258.png(String), (String)
+2019-08-20 15:41:59,865 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 0
+2019-08-20 15:43:37,868 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_theme t SET t.update_date = ?, t.priority = ?, t.cover_img_url = ?, t.cover_real_name = ?, t.cover_name = ? where t.id=? 
+2019-08-20 15:43:37,869 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2019-08-20 15:43:37.868(Timestamp), 1(Integer), /opt/themeCoverImgPath\1566286939074151.png(String), blob.png(String), 1566286939074151.png(String), (String)
+2019-08-20 15:43:37,870 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 0
+2019-08-20 15:44:24,762 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: update vs_theme t SET t.update_date = ?, t.priority = ?, t.cover_img_url = ?, t.cover_real_name = ?, t.cover_name = ? where t.id=? 
+2019-08-20 15:44:24,763 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 2019-08-20 15:44:24.761(Timestamp), 1(Integer), /opt/themeCoverImgPath\1566287060283658.png(String), blob.png(String), 1566287060283658.png(String), D3EFCCFE1F104F8BA0E8F1FF4093DD7A(String)
+2019-08-20 15:44:24,766 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1

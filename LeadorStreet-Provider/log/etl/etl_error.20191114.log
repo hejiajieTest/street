@@ -1,0 +1,55 @@
+2019-11-14 17:33:47,397 [ERROR]  (DatabaseHelper.java.dynamicQueryByPatame:467) - getColumnNames failure
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 =1  anddata_sets_id=0585B2182A5344C6A77E510C9D0D394C' at line 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at com.tscloud.resource.utils.DatabaseHelper.dynamicQueryByPatame(DatabaseHelper.java:446)
+	at com.tscloud.resource.utils.DatabaseHelper.main(DatabaseHelper.java:489)
+2019-11-14 17:34:37,723 [ERROR]  (DatabaseHelper.java.dynamicQueryByPatame:467) - getColumnNames failure
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 =1  anddata_sets_id=0585B2182A5344C6A77E510C9D0D394C' at line 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at com.tscloud.resource.utils.DatabaseHelper.dynamicQueryByPatame(DatabaseHelper.java:446)
+	at com.tscloud.resource.utils.DatabaseHelper.main(DatabaseHelper.java:489)
+2019-11-14 17:35:51,427 [ERROR]  (DatabaseHelper.java.dynamicQueryByPatame:467) - getColumnNames failure
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown column '0585B2182A5344C6A77E510C9D0D394C' in 'where clause'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at com.tscloud.resource.utils.DatabaseHelper.dynamicQueryByPatame(DatabaseHelper.java:446)
+	at com.tscloud.resource.utils.DatabaseHelper.main(Unknown Source)
+2019-11-14 17:53:09,963 [ERROR]  (DatabaseHelper.java.dynamicQueryByPatame:467) - getColumnNames failure
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown column '0585B2182A5344C6A77E510C9D0D394C' in 'where clause'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at com.tscloud.resource.utils.DatabaseHelper.dynamicQueryByPatame(DatabaseHelper.java:446)
+	at com.tscloud.resource.utils.DatabaseHelper.main(DatabaseHelper.java:489)
+2019-11-14 17:53:27,419 [ERROR]  (DatabaseHelper.java.dynamicQueryByPatame:467) - getColumnNames failure
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown column '0585B2182A5344C6A77E510C9D0D394C' in 'where clause'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3206)
+	at com.mysql.jdbc.Statement.executeQuery(Statement.java:1232)
+	at com.tscloud.resource.utils.DatabaseHelper.dynamicQueryByPatame(DatabaseHelper.java:446)
+	at com.tscloud.resource.utils.DatabaseHelper.main(DatabaseHelper.java:489)

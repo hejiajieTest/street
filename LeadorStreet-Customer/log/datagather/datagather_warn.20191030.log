@@ -1,0 +1,482 @@
+2019-10-30 14:24:46,912 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-10-30 14:24:48,302 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:24:48,507 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:24:48,507 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:25:00,432 [WARN ]  (AbstractApplicationContext.java.refresh:487) - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'catalogRestServerImpl': Injection of @com.alibaba.dubbo.config.annotation.Reference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICatalogProvider. No provider available for the service com.tscloud.domain.resource.provider.ICatalogProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICatalogProvider&methods=findAllByUserId,findById,findByMap,deleteById,save,update,checkName,findByPage,findAll&pid=11376&register.ip=192.168.64.1&side=consumer&timestamp=1572416688749 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICatalogProvider. No provider available for the service com.tscloud.domain.resource.provider.ICatalogProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICatalogProvider&methods=findAllByUserId,findById,findByMap,deleteById,save,update,checkName,findByPage,findAll&pid=11376&register.ip=192.168.64.1&side=consumer&timestamp=1572416688749 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:422)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.init(ReferenceAnnotationBeanPostProcessor.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.access$100(ReferenceAnnotationBeanPostProcessor.java:147)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildInvocationHandler(ReferenceAnnotationBeanPostProcessor.java:141)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildProxy(ReferenceAnnotationBeanPostProcessor.java:123)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:117)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:50)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.getInjectedObject(AnnotationInjectedBeanPostProcessor.java:340)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor$AnnotatedFieldElement.inject(AnnotationInjectedBeanPostProcessor.java:520)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:128)
+	... 31 more
+2019-10-30 14:25:00,438 [WARN ]  (WebAppContext.java.doStart:554) - Failed startup of context o.e.j.w.WebAppContext@f31c0c6{/visualshow,file:///D:/kaifa/VisualShow/VisualShow-Portal/src/main/webapp/,UNAVAILABLE}
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'catalogRestServerImpl': Injection of @com.alibaba.dubbo.config.annotation.Reference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICatalogProvider. No provider available for the service com.tscloud.domain.resource.provider.ICatalogProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICatalogProvider&methods=findAllByUserId,findById,findByMap,deleteById,save,update,checkName,findByPage,findAll&pid=11376&register.ip=192.168.64.1&side=consumer&timestamp=1572416688749 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICatalogProvider. No provider available for the service com.tscloud.domain.resource.provider.ICatalogProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICatalogProvider&methods=findAllByUserId,findById,findByMap,deleteById,save,update,checkName,findByPage,findAll&pid=11376&register.ip=192.168.64.1&side=consumer&timestamp=1572416688749 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:422)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.init(ReferenceAnnotationBeanPostProcessor.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.access$100(ReferenceAnnotationBeanPostProcessor.java:147)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildInvocationHandler(ReferenceAnnotationBeanPostProcessor.java:141)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildProxy(ReferenceAnnotationBeanPostProcessor.java:123)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:117)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:50)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.getInjectedObject(AnnotationInjectedBeanPostProcessor.java:340)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor$AnnotatedFieldElement.inject(AnnotationInjectedBeanPostProcessor.java:520)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:128)
+	... 31 more
+2019-10-30 14:25:50,688 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-10-30 14:25:51,249 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:25:51,308 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:25:51,308 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:26:03,602 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-10-30 14:26:03,909 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:26:03,972 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:26:04,050 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:26:04,117 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:26:04,196 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:26:04,267 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:26:04,333 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:26:04,480 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:26:04,546 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 14:26:04,606 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:33:01,001 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-10-30 16:33:01,555 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:33:01,619 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:33:01,620 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:36:41,060 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-10-30 16:36:41,625 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:36:41,696 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:36:41,696 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:36:53,709 [WARN ]  (AbstractApplicationContext.java.refresh:487) - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityInfoRestServerImpl': Injection of @com.alibaba.dubbo.config.annotation.Reference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findById,findByMap,save,deleteById,update,findByPage,findAll&pid=15392&register.ip=192.168.64.1&side=consumer&timestamp=1572424613423 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findById,findByMap,save,deleteById,update,findByPage,findAll&pid=15392&register.ip=192.168.64.1&side=consumer&timestamp=1572424613423 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:422)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.init(ReferenceAnnotationBeanPostProcessor.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.access$100(ReferenceAnnotationBeanPostProcessor.java:147)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildInvocationHandler(ReferenceAnnotationBeanPostProcessor.java:141)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildProxy(ReferenceAnnotationBeanPostProcessor.java:123)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:117)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:50)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.getInjectedObject(AnnotationInjectedBeanPostProcessor.java:340)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor$AnnotatedFieldElement.inject(AnnotationInjectedBeanPostProcessor.java:520)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:128)
+	... 31 more
+2019-10-30 16:36:53,714 [WARN ]  (WebAppContext.java.doStart:554) - Failed startup of context o.e.j.w.WebAppContext@5f233b26{/visualshow,file:///D:/kaifa/VisualShow/VisualShow-Portal/src/main/webapp/,UNAVAILABLE}
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityInfoRestServerImpl': Injection of @com.alibaba.dubbo.config.annotation.Reference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findById,findByMap,save,deleteById,update,findByPage,findAll&pid=15392&register.ip=192.168.64.1&side=consumer&timestamp=1572424613423 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findById,findByMap,save,deleteById,update,findByPage,findAll&pid=15392&register.ip=192.168.64.1&side=consumer&timestamp=1572424613423 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:422)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.init(ReferenceAnnotationBeanPostProcessor.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.access$100(ReferenceAnnotationBeanPostProcessor.java:147)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildInvocationHandler(ReferenceAnnotationBeanPostProcessor.java:141)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildProxy(ReferenceAnnotationBeanPostProcessor.java:123)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:117)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:50)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.getInjectedObject(AnnotationInjectedBeanPostProcessor.java:340)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor$AnnotatedFieldElement.inject(AnnotationInjectedBeanPostProcessor.java:520)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:128)
+	... 31 more
+2019-10-30 16:36:53,734 [WARN ]  (ReferenceConfig.java.finalize:97) -  [DUBBO] ReferenceConfig(null) is not DESTROYED when FINALIZE, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:38:04,253 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-10-30 16:38:04,952 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:38:05,034 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:38:05,035 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:38:17,522 [WARN ]  (AbstractApplicationContext.java.refresh:487) - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityInfoRestServerImpl': Injection of @com.alibaba.dubbo.config.annotation.Reference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findByMap,findById,save,deleteById,update,findByPage,findAll&pid=1748&register.ip=192.168.64.1&revision=1.0&side=consumer&timestamp=1572424697480 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findByMap,findById,save,deleteById,update,findByPage,findAll&pid=1748&register.ip=192.168.64.1&revision=1.0&side=consumer&timestamp=1572424697480 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:422)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.init(ReferenceAnnotationBeanPostProcessor.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.access$100(ReferenceAnnotationBeanPostProcessor.java:147)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildInvocationHandler(ReferenceAnnotationBeanPostProcessor.java:141)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildProxy(ReferenceAnnotationBeanPostProcessor.java:123)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:117)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:50)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.getInjectedObject(AnnotationInjectedBeanPostProcessor.java:340)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor$AnnotatedFieldElement.inject(AnnotationInjectedBeanPostProcessor.java:520)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:128)
+	... 31 more
+2019-10-30 16:38:17,527 [WARN ]  (WebAppContext.java.doStart:554) - Failed startup of context o.e.j.w.WebAppContext@2c383e33{/visualshow,file:///D:/kaifa/VisualShow/VisualShow-Portal/src/main/webapp/,UNAVAILABLE}
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityInfoRestServerImpl': Injection of @com.alibaba.dubbo.config.annotation.Reference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findByMap,findById,save,deleteById,update,findByPage,findAll&pid=1748&register.ip=192.168.64.1&revision=1.0&side=consumer&timestamp=1572424697480 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findByMap,findById,save,deleteById,update,findByPage,findAll&pid=1748&register.ip=192.168.64.1&revision=1.0&side=consumer&timestamp=1572424697480 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:422)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.init(ReferenceAnnotationBeanPostProcessor.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.access$100(ReferenceAnnotationBeanPostProcessor.java:147)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildInvocationHandler(ReferenceAnnotationBeanPostProcessor.java:141)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildProxy(ReferenceAnnotationBeanPostProcessor.java:123)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:117)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:50)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.getInjectedObject(AnnotationInjectedBeanPostProcessor.java:340)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor$AnnotatedFieldElement.inject(AnnotationInjectedBeanPostProcessor.java:520)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:128)
+	... 31 more
+2019-10-30 16:38:17,548 [WARN ]  (ReferenceConfig.java.finalize:97) -  [DUBBO] ReferenceConfig(null) is not DESTROYED when FINALIZE, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:39:44,123 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-10-30 16:39:44,618 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:39:44,685 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:39:44,685 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:39:57,177 [WARN ]  (AbstractApplicationContext.java.refresh:487) - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityInfoRestServerImpl': Injection of @com.alibaba.dubbo.config.annotation.Reference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findById,findByMap,save,deleteById,update,findByPage,findAll&pid=13132&register.ip=192.168.64.1&revision=1.0&side=consumer&timestamp=1572424797077 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findById,findByMap,save,deleteById,update,findByPage,findAll&pid=13132&register.ip=192.168.64.1&revision=1.0&side=consumer&timestamp=1572424797077 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:422)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.init(ReferenceAnnotationBeanPostProcessor.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.access$100(ReferenceAnnotationBeanPostProcessor.java:147)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildInvocationHandler(ReferenceAnnotationBeanPostProcessor.java:141)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildProxy(ReferenceAnnotationBeanPostProcessor.java:123)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:117)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:50)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.getInjectedObject(AnnotationInjectedBeanPostProcessor.java:340)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor$AnnotatedFieldElement.inject(AnnotationInjectedBeanPostProcessor.java:520)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:128)
+	... 31 more
+2019-10-30 16:39:57,183 [WARN ]  (WebAppContext.java.doStart:554) - Failed startup of context o.e.j.w.WebAppContext@2c383e33{/visualshow,file:///D:/kaifa/VisualShow/VisualShow-Portal/src/main/webapp/,UNAVAILABLE}
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityInfoRestServerImpl': Injection of @com.alibaba.dubbo.config.annotation.Reference dependencies is failed; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findById,findByMap,save,deleteById,update,findByPage,findAll&pid=13132&register.ip=192.168.64.1&revision=1.0&side=consumer&timestamp=1572424797077 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:957)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:553)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:922)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:365)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.tscloud.portal.utils.StartJetty.startJetty(StartJetty.java:40)
+	at com.tscloud.portal.main.StartPortalUI.main(StartPortalUI.java:11)
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.tscloud.domain.resource.provider.ICityInfoProvider. No provider available for the service com.tscloud.domain.resource.provider.ICityInfoProvider from the url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=com-tscloud-portal&default.loadbalance=random&default.timeout=20000&dubbo=2.0.2&interface=com.tscloud.domain.resource.provider.ICityInfoProvider&methods=findById,findByMap,save,deleteById,update,findByPage,findAll&pid=13132&register.ip=192.168.64.1&revision=1.0&side=consumer&timestamp=1572424797077 to the consumer 192.168.64.1 use dubbo version 2.6.5
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:422)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:333)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.init(ReferenceAnnotationBeanPostProcessor.java:163)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor$ReferenceBeanInvocationHandler.access$100(ReferenceAnnotationBeanPostProcessor.java:147)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildInvocationHandler(ReferenceAnnotationBeanPostProcessor.java:141)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.buildProxy(ReferenceAnnotationBeanPostProcessor.java:123)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:117)
+	at com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.doGetInjectedBean(ReferenceAnnotationBeanPostProcessor.java:50)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.getInjectedObject(AnnotationInjectedBeanPostProcessor.java:340)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor$AnnotatedFieldElement.inject(AnnotationInjectedBeanPostProcessor.java:520)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at com.alibaba.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.postProcessPropertyValues(AnnotationInjectedBeanPostProcessor.java:128)
+	... 31 more
+2019-10-30 16:39:57,201 [WARN ]  (ReferenceConfig.java.finalize:97) -  [DUBBO] ReferenceConfig(null) is not DESTROYED when FINALIZE, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:16,194 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-10-30 16:57:16,686 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:16,753 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:16,754 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:28,750 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-10-30 16:57:28,976 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:29,035 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:29,080 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICityInfoProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:29,115 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:29,160 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:29,196 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:29,232 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:29,266 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:29,313 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:29,349 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 16:57:29,385 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:29:10,883 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-10-30 17:29:11,920 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:29:12,006 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:29:12,007 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:29:57,582 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-10-30 17:29:58,098 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:29:58,166 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:29:58,167 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,011 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-10-30 17:30:10,390 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,460 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,521 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICityInfoProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,597 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,652 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,697 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,749 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,802 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,865 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,917 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:30:10,969 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:05,198 [WARN ]  (DeprecationWarning.java.verifyIndirectTypes:70) - Using indirect @Deprecated Class org.springframework.web.util.Log4jConfigListener - (seen from class com.tscloud.portal.utils.LoggerIntergrationListener)
+2019-10-30 17:31:05,779 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:05,860 [WARN ]  (SpringExtensionFactory.java.getExtension:63) -  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:05,861 [WARN ]  (SpringExtensionFactory.java.getExtension:81) -  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:18,833 [WARN ]  (SingleSignOutHandler.java.init:147) - Front Channel single sign out redirects are disabled when the 'casServerUrlPrefix' value is not set.
+2019-10-30 17:31:19,192 [WARN ]  (ServiceAnnotationBeanPostProcessor.java.registerServiceBeans:155) -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.tscloud.portal.restful], dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:19,290 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:19,347 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ICityInfoProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:19,393 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IComponentsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:19,436 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:19,484 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSourceProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:19,529 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsCatalogProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:19,575 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IDataSetsProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:19,623 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeImgProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:19,669 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.IThemeProvider, dubbo version: 2.6.5, current host: 192.168.64.1
+2019-10-30 17:31:19,718 [WARN ]  (ApplicationModel.java.initConsumerModel:65) -  [DUBBO] Already register the same consumer:com.tscloud.domain.resource.provider.ILayoutProvider, dubbo version: 2.6.5, current host: 192.168.64.1

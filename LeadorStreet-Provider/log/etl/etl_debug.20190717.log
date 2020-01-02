@@ -1,0 +1,39 @@
+2019-07-17 17:40:23,626 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-07-17 17:40:23,661 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-17 17:40:23,681 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 25
+2019-07-17 17:54:38,303 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-07-17 17:54:38,343 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-17 17:54:38,360 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 25
+2019-07-17 17:54:44,789 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-07-17 17:54:44,791 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-17 17:54:44,799 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 25
+2019-07-17 17:54:57,028 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-07-17 17:54:57,029 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-17 17:54:57,033 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 25
+2019-07-17 17:55:10,652 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-07-17 17:55:10,653 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-17 17:55:10,659 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 25
+2019-07-17 17:55:46,678 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.auto_enterprise_code,t.dowload_url,t.manual_desc,t.manual_name,t.manual_type,t.update_date from t_manual_info t 
+2019-07-17 17:55:46,710 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-17 17:55:46,724 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 25
+2019-07-17 21:35:15,268 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t 
+2019-07-17 21:35:15,405 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-17 21:36:16,859 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t 
+2019-07-17 21:36:16,949 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-17 21:36:16,968 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-17 21:49:50,266 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t where t.id = ? 
+2019-07-17 21:49:50,268 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 7(String)
+2019-07-17 21:49:50,270 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 0
+2019-07-17 21:50:03,083 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: delete from t_manual_info where id = 
+2019-07-17 21:50:03,084 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-17 21:53:33,560 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_catalog(user_id,catalog_name) values(?,?) 
+2019-07-17 21:53:33,661 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String), 测试目录1(String)
+2019-07-17 21:56:10,347 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_catalog(id,user_id,catalog_name) values(?,?,?) 
+2019-07-17 21:56:10,402 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: E8D2F3DDC93E4A5AB78A69B15F4757BB(String), C2E4C69C04544ED0B3737A34DE8C4B70(String), 测试目录1(String)
+2019-07-17 21:56:10,408 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1
+2019-07-17 21:56:50,446 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name from vs_catalog t 
+2019-07-17 21:56:50,448 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: 
+2019-07-17 21:56:50,467 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 1
+2019-07-17 21:57:40,159 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: insert into vs_catalog(id,user_id,catalog_name) values(?,?,?) 
+2019-07-17 21:57:40,160 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: E577128AF6014D07A6525ABADB441A24(String), C2E4C69C04544ED0B3737A34DE8C4B70(String), gis(String)
+2019-07-17 21:57:40,178 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==    Updates: 1

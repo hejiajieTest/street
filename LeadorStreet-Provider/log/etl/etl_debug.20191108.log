@@ -1,0 +1,9 @@
+2019-11-08 11:37:40,626 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-08 11:37:40,672 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-08 11:37:40,705 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-08 11:37:41,175 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-08 11:37:41,182 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-08 11:37:41,185 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5
+2019-11-08 11:37:59,014 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==>  Preparing: select t.id,t.user_id,t.catalog_name,t.priority,t.create_date,t.update_date,t.parent_id from vs_catalog t where t.user_id=? order by t.priority desc 
+2019-11-08 11:37:59,016 [DEBUG]  (BaseJdbcLogger.java.debug:139) - ==> Parameters: C2E4C69C04544ED0B3737A34DE8C4B70(String)
+2019-11-08 11:37:59,019 [DEBUG]  (BaseJdbcLogger.java.debug:139) - <==      Total: 5

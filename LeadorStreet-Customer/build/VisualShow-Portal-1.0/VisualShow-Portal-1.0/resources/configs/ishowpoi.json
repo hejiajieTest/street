@@ -1,0 +1,18 @@
+{
+  "IShowPoiParam": [
+    {
+      "alias": "POI_ID",
+      "field": "分类"
+    },
+    {
+      "alias": "DOMAINNAME",
+      "field": "名称"
+    },
+    {
+      "alias": "ADDR_CHN",
+      "field": "地址"
+    }
+  ],
+  "QueryCity": "敦煌",
+  "ak": "ec85d3648154874552835438ac6a02b2"
+}

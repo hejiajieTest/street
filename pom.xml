@@ -13,9 +13,9 @@
     <url>http://maven.apache.org</url>
 
     <modules>
-        <module>LeadorStreet-api</module>
-        <module>LeadorStreet-customer</module>
-        <module>LeadorStreet-provider</module>
+        <module>LeadorStreet-Domain</module>
+        <module>LeadorStreet-Portal</module>
+        <module>LeadorStreet-Server</module>
     </modules>
 
     <build>

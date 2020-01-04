@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tscloud.resource.mapper.trueMapCamera.TrueMapCameraMapper">
+
+    <resultMap type="com.tscloud.domain.resource.entity.trueMapCamera.TrueMapCamera" id="trueMapCaremaResultMap">
+    
+    	<result column="vid" property="vid" javaType="java.lang.String"/>
+    	<result column="checkdate" property="checkdate" javaType="java.util.Date"/>
+        <result column="camerano" property="camerano" javaType="java.lang.String"/>
+        <result column="pixel" property="pixel" javaType="java.lang.String"/>
+        <result column="col" property="col" javaType="java.lang.Integer"/>
+        <result column="row" property="row" javaType="java.lang.Integer"/>
+        <result column="pair" property="pair" javaType="java.lang.String"/>
+        <result column="hview" property="hview" javaType="java.lang.Long"/>
+        <result column="wview" property="wview" javaType="java.lang.Long"/>
+        <result column="purview" property="purview" javaType="java.lang.Long"/>
+        <result column="f" property="f" javaType="java.lang.Long"/>
+        <result column="x0" property="x0" javaType="java.lang.Long"/>
+        <result column="y0" property="y0" javaType="java.lang.Long"/>
+        <result column="ky" property="ky" javaType="java.lang.Long"/>
+        <result column="dx" property="dx" javaType="java.lang.Long"/>
+        <result column="dy" property="dy" javaType="java.lang.Long"/>
+        <result column="k1" property="k1" javaType="java.lang.Long"/>
+        <result column="k2" property="k2" javaType="java.lang.Long"/>
+        <result column="k3" property="k3" javaType="java.lang.Long"/>
+        <result column="p1" property="p1" javaType="java.lang.Long"/>
+        <result column="p2" property="p2" javaType="java.lang.Long"/>
+         <result column="p3" property="p3" javaType="java.lang.Long"/>
+        <result column="p4" property="p4" javaType="java.lang.Long"/>
+        <result column="ax" property="ax" javaType="java.lang.Long"/>
+        <result column="ay" property="ay" javaType="java.lang.Long"/>
+        <result column="az" property="az" javaType="java.lang.Long"/>
+        <result column="ayaw" property="ayaw" javaType="java.lang.Long"/>
+        <result column="apitch" property="apitch" javaType="java.lang.Long"/>
+        <result column="aroll" property="aroll" javaType="java.lang.Long"/>
+        <result column="rx" property="rx" javaType="java.lang.Long"/>
+        <result column="ry" property="ry" javaType="java.lang.Long"/>
+        <result column="rz" property="rz" javaType="java.lang.Long"/>
+        <result column="ryaw" property="ryaw" javaType="java.lang.Long"/>
+        <result column="rpitch" property="rpitch" javaType="java.lang.Long"/>
+        <result column="rroll" property="rroll" javaType="java.lang.Long"/>
+    </resultMap>
+    
+    <sql id="column">
+       	t.vid,t.checkdate,t.camerano,t.pixel,
+       	t.hview,t.wview,t.purview,t.col,t.row,
+       	t.f,t.x0,t.y0,t.ky,t.dx,t.dy,t.k1,t.k2,
+       	t.k3,t.p1,t.p2,t.p3,t.p4,t.ax,t.ay,t.az,
+       	t.ayaw,t.apitch,t.aroll,t.rX,t.rY,t.rZ,
+       	t.ryaw,t.rpitch,t.rroll,t.pair        
+    </sql>
+ 
+ 	<select id="findAll" resultMap="trueMapCaremaResultMap">
+        select
+        <include refid="column"/>
+        from truemap_camera t
+    </select>
+  	<select id="findByMap" parameterType="java.util.Map" resultMap="trueMapCaremaResultMap">
+    	select 
+    	<include refid="column"/>
+    	from truemap_camera t
+    	<include refid="sql_where"/>
+    </select>
+   	<select id="SearchCameraByMap" parameterType="java.util.Map" resultMap="trueMapCaremaResultMap">
+		select
+			<include refid="column"/>
+		from truemap_camera t
+			<include refid="sql_where"/>
+		order by
+			t.checkdate 
+		desc limit 1
+    </select>
+    <!--查询条件-->
+    <sql id="sql_where">
+        <where>
+            <if test="vid != null and vid != '' ">
+                <![CDATA[
+                  and t.vid = #{vid}
+                ]]>
+            </if>
+             <if test="cameraNo != null and cameraNo != '' ">
+                <![CDATA[
+                  and t.cameraNo = #{cameraNo}
+                ]]>
+            </if>
+             <if test="dateFormat != null and dateFormat != '' ">
+                <![CDATA[
+                  and t.checkdate <= to_date(#{dateFormat}, 'YYYY-MM-DD')
+                ]]>
+            </if>
+        </where>
+    </sql>
+</mapper>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.tscloud</groupId>
+        <artifactId>LeadorStreet</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <artifactId>LeadorStreet-Server</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>LeadorStreet-Server</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.tscloud</groupId>
+            <artifactId>LeadorStreet-Domain</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+       <!--  <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.0.8</version>
+        </dependency>
+ -->
+        <!-- mybaits start-->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.2.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations -->
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-annotations</artifactId>
+		    <version>2.8.4</version>
+		</dependency>
+	   <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>9.4.1212.jre7</version>
+		</dependency>
+		   <!-- SmbFile start -->
+       <dependency>
+	       <groupId>jcifs</groupId>
+	       <artifactId>jcifs</artifactId>
+	       <version>1.3.18</version>
+		</dependency>
+       <!-- SmbFile end -->
+        <!-- <dependency>
+            <groupId>proxool</groupId>
+            <artifactId>proxool</artifactId>
+            <version>0.9.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>proxool-cglib</groupId>
+            <artifactId>proxool-cglib</artifactId>
+            <version>0.9.1</version>
+        </dependency> -->
+        <!-- mybaits end-->
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>predic8-releases</id>
+            <url>https://repository.membrane-soa.org/repository/releases/</url>
+        </repository>
+    </repositories> 
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://192.168.100.32:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://192.168.100.32:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+  <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build> 
+
+</project>
